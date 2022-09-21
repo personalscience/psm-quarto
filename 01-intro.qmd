@@ -1,35 +1,10 @@
 # Getting Started {#Start}
 
 To study your own microbiome, you'll first need to run your microbes through a gene sequencer. Finding precisely which bits of DNA, and which microbes, are in your body is a miracle of modern technology that requires state-of-the-art equipment in a high tech lab. Fortunately, the costs to you as a consumer are plummeting and it's now easy to have your microbiome tested for under $100.
-
-The Personal Science app supports raw data from several microbiome companies.
-
-## Raw data for your microbiome
-
-### uBiome
-Until October 2019, the most popular laboratory was the San Francisco startup uBiome ^[from September 2012], 
-that originally began as crowdfunded campaign on
-Indiegogo^[https://www.indiegogo.com/projects/ubiome-sequencing-your-microbiome], but has since handled tens of thousands of samples from people like you who are curious to know more about their own microbiome. 
-
-uBiome's assets were sold to [Psomagen](https://psomagen.com/), the US subsidiary of a genomics sequencing company. Psomagen sells gut testing kits: Gene and Gut Biome (\$99 for the same 16S-style testing as uBiome) and GutBiome+ (\$129) a metagenomic test that will describe your microbes down to the species level.
-
-
-### Thryve
-Founded after CEO Richard Lin became frustrated at the lack of actionable microbiome insights to cure his own recurrent gut issues, [ThryveInside.com](https://thryveinside.com) is another gut microbiome test that offers full raw downloads for your data. Use our offer code `personalscience15` for 15% off your order.
-
-### American Gut
-
-Another citizen science-based testing service is American Gut. ^[which dates from [November 2012](https://domains.google.com/registrar?s=americangut&hl=en#st=a&chp=w&w=americangut.org) If you're interested in studying raw data, please see this detailed post by a bioinformatician: https://cdwscience.blogspot.com/2013/10/open-source-analysis-of-my-raw-american.html].  
-
-### Other
-
-Other companies will sequence your microbiome as well, including DayTwo and Viome.  Stay tuned to our site for information about when we can support the raw data from other sites.
-
-Check [Lab tests compared](#appendixLabTestsCompared) to see how much the different results are comparable.
-
 ---
 
 So you tested your microbiome and now you want to know what it all means. Later we'll go into much more detail about the sampling process itself: differences between labs, how to get the best sample, how long it will take, etc. but let's start by assuming you've gone through all that. What will you learn?
 
+![The FB ratio changes significantly day-to-day, making it unclear which point should be relied upon over a ten day period](assets/psm/plotFirmicutes.png){#fig-plotFirmicutes}
 
 
