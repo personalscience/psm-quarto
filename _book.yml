@@ -1,0 +1,17 @@
+
+book:
+  title: "Personal Science Guide to the Microbiome"
+  cover-image: assets/coverPersonalScience-quarto.jpg
+  downloads: [epub, pdf, docx]
+  chapters:
+    - index.qmd
+    - part: "General Overview"
+      chapters:
+        - 01-intro.qmd
+        - 02-microbes.qmd
+    - part: "Techniques"
+      chapters:
+        - 03-methods.qmd
+    - 06-references.qmd
+
+

@@ -1,0 +1,13 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+_bookdown_files/
+_book/
+_site/
+*.Rproj
+docs/
+
+
+
+/.quarto/
