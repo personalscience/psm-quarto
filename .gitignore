@@ -8,6 +8,7 @@ _site/
 *.Rproj
 docs/
 
-
+/index_cache/
+_freeze/
 
 /.quarto/

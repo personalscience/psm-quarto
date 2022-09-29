@@ -9,6 +9,7 @@ book:
       chapters:
         - 01-intro.qmd
         - 02-microbes.qmd
+        - Experiments.qmd
     - part: "Techniques"
       chapters:
         - 03-methods.qmd

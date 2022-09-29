@@ -87,24 +87,3 @@ But what if you could choose your own subset of users with whom you want to comp
 That’s why it’s *personal* -- it’s about the one, unique data point that is you -- and why it’s *science* -- democratize the quantitative tools of science to let you understand your condition, for yourself.
 
 -->
----
-
-
-```{r loadAllData, echo=FALSE, warning = FALSE, message = FALSE}
-
-knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
-
-source("R/loadMHGData.R")
-
-
-library(ggthemes)
-theme_set( theme_light(base_family = "MarkPro"))
-theme_set(theme_economist() +theme(axis.title.x=element_blank()))# + scale_colour_economist())
-
-
-if(Sys.info()["sysname"]=="Darwin"){
-  quartzFonts(Candara = quartzFont(rep("Candara",4)), MarkPro = quartzFont(rep("MarkPro",4)))
-} else windowsFonts(Candara = windowsFont("Candara"), MarkPro = windowsFont("MarkPro"))
-
-
-```
