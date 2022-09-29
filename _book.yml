@@ -2,6 +2,7 @@
 book:
   title: "Personal Science Guide to the Microbiome"
   cover-image: assets/coverPersonalScience-quarto.jpg
+  output-file: psm
   downloads: [epub, pdf, docx]
   chapters:
     - index.qmd

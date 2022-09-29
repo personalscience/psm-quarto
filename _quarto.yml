@@ -1,5 +1,7 @@
 project:
   type: book
+  preview:
+    port: 4200
 
 metadata-files:
   - _book.yml
