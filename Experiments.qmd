@@ -17,7 +17,7 @@ What follows is a brief overview of some of the key things I learned.
 
 ### Diversity
 
-The general consensus is that diversity is good: a greater variety of microbes ensures more resillience against the daily threat of invaders. Many people, after taking just one test, often feel either reassured that their diversity is "good" or disappointed that it's "bad". But I find that day-to-day variability is high enough that it's almost never useful to use a single result. For example, here's my diversity during a typical week: (Figure @fig-plotOneWeekDiversity))
+The general consensus is that diversity is good: a greater variety of microbes ensures more resilience against the daily threat of invaders. Many people, after taking just one test, often feel either reassured that their diversity is "good" or disappointed that it's "bad". But I find that day-to-day variability is high enough that it's almost never useful to use a single result. For example, here's my diversity during a typical week: (Figure @fig-plotOneWeekDiversity))
 
 ![Diversity changes significantly day-to-day.](assets/psm/plotOneWeekDiversity.png){#fig-plotOneWeekDiversity}
 

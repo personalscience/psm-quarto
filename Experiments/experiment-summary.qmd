@@ -1,0 +1,34 @@
+## Summary of My Experiments {#experimentSummary}
+
+During the period from 2014 through early 2019, I sequenced over 600 samples of my microbiome. Inspired by the experiment in a 2014 paper by David Lawrence[^experiment-summary-1], during most of that time I also carefully tracked the food I ate, my sleep, and other variables like activity or location. Most of my near-daily samples were of my gut, but I also regularly tested my skin, nose, and mouth. Since I'm generally healthy, I didn't have a specific goal in mind other than to try to understand better what these microbes are doing, so many of my tests were taken while undergoing simple experiments, like eating a specific type of food or visiting a new location. While not necessarily up to the rigorous standards of a formal scientific trial, these "n of 1" studies on myself helped me discover several new interesting facts about my own microbiome, many of which appear to contradict other published studies. In addition, hundreds of people sent me their own test results, letting me compare many different microbiomes. And of course, I also followed the latest developments in scientific publications and the general press as I eagerly tried to learn more.
+
+[^experiment-summary-1]: @david_host_2014
+
+What follows is a brief overview of some of the key things I learned.
+
+-   The microbiome is highly variable from day to day, often moving in ways that appear indistinguishable from random.
+-   Broad trends *are* there if you look closely. I found many intriguing new results.
+-   It *is* possible to change your microbiome in specific circumstances.
+-   People's microbiomes are frustratingly different from one another. A feature that seems to be true about one person may not apply to another.
+
+### Diversity
+
+The general consensus is that diversity is good: a greater variety of microbes ensures more resillience against the daily threat of invaders. Many people, after taking just one test, often feel either reassured that their diversity is "good" or disappointed that it's "bad". But I find that day-to-day variability is high enough that it's almost never useful to use a single result. For example, here's my diversity during a typical week: (Figure @fig-plotOneWeekDiversity))
+
+![Diversity changes significantly day-to-day.](assets/coverPersonalScience-quarto.jpg){#fig-plotOneWeekDiversity}
+
+
+If Monday were my only test, I may have been disappointed with my 1.83 score. Wait another day or two and, with no significant changes in diet, I was up to 2.29 -- before plunging to 1.78 by the weekend. Moral: don't take a single result too seriously.
+
+To get a sense of how much diversity can vary over a year (Figure @fig-plotOneYearDiversity))
+
+![Gut diversity varies day-to-day but holds to a recognizable range within a single individual](assets/coverPersonalScience-quarto.jpg){#fig-plotOneYearDiversity}
+
+Although the blue moving-average line shows apparent stability, there are many days that are far above and below the average. Yes, at various times during this period I was eating different types of food, often in a deliberate attempt to influence my microbiome, but believe me: that is not the reason for the wild changes up and down. I also studied the mathematics behind how diversity is measured, hoping to find something more "accurate", but ultimately I concluded that, like many attempts to summarize the microbiome in a single number, the whole concept of diversity is a mirage. Everything depends.
+
+Another way to measure diversity is to simply look at the number of unique microbes. Since I began testing, I've found a grand total of I've found a grand total of 494 genera and 1276 species. About 249 unique genera are found just in my gut, and 63 unique ones were only in my mouth.
+
+Another example of an idea that gets too much credit is the concept of a simple overall ratio as a way to explain or predict some aspect of health. The relationship between the two most common bacterial categories, the phyla *Firmicutes* and *Bacteroidetes*, is still often proposed as a key to understanding obesity despite its being resoundingly disproven in many studies.[^experiment-summary-2]
+
+[^experiment-summary-2]: The most recent, well-respected review [(Walters, Xu, Knight 2014)](http://onlinelibrary.wiley.com/doi/10.1016/j.febslet.2014.09.039/full) says flat-out: "the ratio changes between normal and obese individuals are not statistically significant overall and therefore should not be considered a general feature distinguishing normal and obese human gut microbiota across populations."
+

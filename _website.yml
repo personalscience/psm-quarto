@@ -12,6 +12,7 @@ website:
         contents:
         - index.qmd
         - 01-intro.qmd
+        - science.qmd
       - section: "Microbes"
         contents:
         - 02-microbes.qmd
