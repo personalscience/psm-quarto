@@ -1,4 +1,4 @@
-# The Science of the Microbiome {#science} 
+# The Science of the Microbiome {#sec-science} 
 
 
 
