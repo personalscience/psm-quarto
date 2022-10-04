@@ -5,7 +5,9 @@ project:
 
 metadata-files:
   - _book.yml
-  - _website.yml
+
+execute:
+  freeze: true
 
 
 bibliography: psm-refs.bib

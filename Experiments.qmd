@@ -1,8 +1,47 @@
-# My Experiments {#experiments}
+# Microbes to Watch {#sec-microbes}
+
+
+Your gut as seen by consumer-priced sequencing technology contains many more unique microbial species than you can possibly track, at least hundreds in most people and potentially over 1000. I've seen 1083 different ones in my own results. And that's just using the comparatively crude 16S technology. More comprehensive estimates based on other technology find as many as 36,000 different species^[See [@frank_molecular-phylogenetic_2007] or click for the [open access download](http://www.pnas.org/content/104/34/13780.full)]!  With that much variety, how do we find the ones that matter?
+
+Fortunately, only about 14 strains of 10 species account for 80% of a typical gut microbiome^[See the detailed estimates here: [@kraal_prevalence_2014]]
+
+In this chapter, we'll just consider the most common microbes and the overall consensus on what they do.  Later, in the chapter on [experiments](#sec-experiments), we'll show more about how you can _manipulate_ them.
+
+What you're really wondering is how does your sample compare to others? Do you have an unusual abundance (or lack) of a particular taxa? Is there something that might indicate a greater or lesser similarity between your sample and certain other types of people? That is a very difficult question which we'll address over and over in this book, but for now let's just look at overall abundances of some key microbes. 
+
+## Phylum {#microbesPhylum}
+
+This section is under construction
+
+The gut microbiome of most westerners is dominated by _Firmicutes_ and _Bacteroidetes_, which together make up 80% or more of the total sample.  Most people also have smaller amounts of _Actinobacteria_,  _Proteobacteria_ and _Verrucomicrobia_. This overall composition is so common in healthy people that it's tempting to assume their dominance is "natural" or "normal", but like much else with the microbiome, the situation is different outside the western world, a clue that it's difficult to summarize a single individual's microbiome as "good" or "bad." It all depends.
+
+
+
+## Genus {#microbesGenus}
+
+This section is under construction
+
+You're likely to hear most about the genus level because it's the most detail that cheap sequencing technologies can get right -- most of the time. 
+
+
+_Bifidobacterium_ is a key component of virtually all popular probiotic supplements, partly because it is so easy to manufacture, but also due to its proven association with sleep and other aspects of health. A six month picture of my levels shows some dramatic ups and downs (See Figure \@ref(fig:summarPlotBifido)).
+
+
+## Species
+
+This section is under construction
+
+When you hear the term "species", you probably think of a specific kind of creature, like a dog or a cat. More generally, among the kinds of plants and animals we encounter in the visible world, the term "species" refers broadly to organisms that can mate with one another to produce offspring of the same kind. Cats and dogs are different species because they can't mate with each other.
+
+But bacteria don't mate: they reproduce by dividing themselves in half. So how do we define a species? In fact, even terms like "parent" or "child" aren't quite appropriate if each new cell is an identical copy of the old one. For very broad categories, like phylum or even genus, the similarities among like cells is high enough that we feel comfortable grouping them together with a common name, but at what point do we reach the lowest, most _specific_ level. 
+
+The answer is tricky for another reason, called _horizontal gene transfer_, a process by which sometimes (in fact, quite often), a microbe will absorb genes from nearby organisms, altering its genome and its corresponding functions, sometimes significantly. Once that happens, the resulting new microbe can itself divide indefinitely, producing more and more copies of itself with the new gene. Although the new microbes still mostly resemble their original ancestor, if the new gene makes a protein that affects your body somehow, it might as well be an entirely different species.
+
+# My Experiments {#sec-experiments}
 
 Microbe numbers shift daily in response to your environment, so a single sample won't give much more than a brief snapshot at a single point in time. Here are some of the experiments I've tried on myself, in over 600 tests since 2014. What happens in your case?
 
-## Summary of My Experiments {#experimentSummary}
+## Summary of My Experiments {#sec-experimentSummary}
 
 During the period from 2014 through early 2019, I sequenced over 600 samples of my microbiome. Inspired by the experiment in a 2014 paper by David Lawrence[^experiments-1], during most of that time I also carefully tracked the food I ate, my sleep, and other variables like activity or location. Most of my near-daily samples were of my gut, but I also regularly tested my skin, nose, and mouth. Since I'm generally healthy, I didn't have a specific goal in mind other than to try to understand better what these microbes are doing, so many of my tests were taken while undergoing simple experiments, like eating a specific type of food or visiting a new location. While not necessarily up to the rigorous standards of a formal scientific trial, these "n of 1" studies on myself helped me discover several new interesting facts about my own microbiome, many of which appear to contradict other published studies. In addition, hundreds of people sent me their own test results, letting me compare many different microbiomes. And of course, I also followed the latest developments in scientific publications and the general press as I eagerly tried to learn more.
 
@@ -17,15 +56,54 @@ What follows is a brief overview of some of the key things I learned.
 
 ### Diversity
 
-The general consensus is that diversity is good: a greater variety of microbes ensures more resilience against the daily threat of invaders. Many people, after taking just one test, often feel either reassured that their diversity is "good" or disappointed that it's "bad". But I find that day-to-day variability is high enough that it's almost never useful to use a single result. For example, here's my diversity during a typical week: (Figure @fig-plotOneWeekDiversity))
+The general consensus is that diversity is good: a greater variety of microbes ensures more resilience against the daily threat of invaders. Many people, after taking just one test, often feel either reassured that their diversity is "good" or disappointed that it's "bad". But I find that day-to-day variability is high enough that it's almost never useful to use a single result. For example, here's my diversity during a typical week: (@fig-plotOneWeekDiversity))
 
-![Diversity changes significantly day-to-day.](assets/psm/plotOneWeekDiversity.png){#fig-plotOneWeekDiversity}
+
+
+```{r}
+#| label: fig-plotOneWeekDiversity
+#| fig-cap: "Diversity changes significantly day-to-day."
+#| warning: false
+#| echo: false
+
+
+source("R/header.R")
+diversityWeek.gut.family <- subset_samples(sprague.family.norm, Date > "2017-03-15" & Date < "2017-03-27" & Site == "gut")
+data = data.frame(Diversity = estimate_richness(diversityWeek.gut.family, measures=c("Shannon")),
+                  Date = sample_data(diversityWeek.gut.family)$Date)
+ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
+  geom_smooth(formula = 'y~x', method = "loess") + 
+  scale_x_date(date_labels = "%d (%A)", date_breaks = "1 day", date_minor_breaks = "1 day") +
+  theme(axis.text.x = element_text(angle=90)) + 
+  theme(axis.title.x=element_blank()) +
+  labs(y = "Shannon Alpha Diversity Index", title = "Gut Diversity Changes Day-To-Day")
+```
+
 
 If Monday were my only test, I may have been disappointed with my 1.83 score. Wait another day or two and, with no significant changes in diet, I was up to 2.29 -- before plunging to 1.78 by the weekend. Moral: don't take a single result too seriously.
 
-To get a sense of how much diversity can vary over a year (Figure @fig-plotOneYearDiversity))
+To get a sense of how much diversity can vary over a year (@fig-plotOneYearDiversity))
 
-![Gut diversity varies day-to-day but holds to a recognizable range within a single individual](assets/psm/plotOneYearDiversity.png){#fig-plotOneYearDiversity}
+
+```{r}
+#| label: fig-plotOneYearDiversity
+#| fig-cap: "Gut diversity varies day-to-day but holds to a recognizable range within a single individual"
+#| warning: false
+#| echo: false
+
+
+diversityYear.gut.family <- subset_samples(gut.family.norm, Date > "2016-06-01" & Date < "2017-06-01")
+data = data.frame(Diversity = estimate_richness(diversityYear.gut.family, measures=c("Shannon")),
+                  Date = sample_data(diversityYear.gut.family)$Date)
+ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
+  geom_smooth(method = "loess") + 
+  theme(axis.title.x=element_blank()) +
+  scale_x_date(date_labels = "%B", date_breaks = "1 months", date_minor_breaks = "1 month")  +
+  theme(axis.text.x = element_text(angle=90)) + 
+  labs(y = "Shannon Alpha Diversity Index", title = "Gut Diversity Across One Year")
+  
+```
+
 
 <!-- ```{r child="Experiments/experiment-kefir.Rmd"} -->
 
@@ -105,9 +183,6 @@ To get a sense of how much diversity can vary over a year (Figure @fig-plotOneYe
 
 <!-- ``` -->
 
-I confirmed this unreliability for myself, again obvious if you see how much variation there is day-to-day on a typical week (Figure @fig-plotFirmicutes )
-
-![The FB ratio changes significantly day-to-day, making it unclear which point should be relied upon over a ten day period](assets/psm/plotFirmicutes.png){#fig-plotFirmicutes}
 
 I found high daily variability to be the case for just about every microbe that you'll find mentioned in popular books or articles. Here are two more examples:
 
@@ -120,7 +195,6 @@ I tend to have a much higher average abundance than most people. [Later](#caseSt
 *Bifidobacterium* is a key component of virtually all popular probiotic supplements, partly because it is so easy to manufacture, but also due to its proven association with sleep and other aspects of health. A six month picture of my levels shows some dramatic ups and downs. (Figure @fig-summarPlotBifido).
 
 ![Bifidobacterum levels over time. Red dots indicate period of taking probiotic supplements.](assets/psm/summarPlotBifido.png){#fig-summarPlotBifido}
-
 
 Incidentally, the red dots indicate days when I was taking a powerful probiotic supplement that contained *Bifidobacterium*. And that big spike in September? That was during a trip to New Orleans, when I ate a lot of red beans and rice. At least for me, food seems to work better than taking supplements.
 

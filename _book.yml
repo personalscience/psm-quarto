@@ -4,19 +4,27 @@ book:
   cover-image: assets/coverPersonalScience-quarto.jpg
   output-file: psm
   downloads: [epub, pdf, docx]
+  page-footer: "Copyright © Richard Sprague 2022"
+  book-navigation: true
   chapters:
     - index.qmd
     - part: "General Overview"
       chapters:
-        - 01-intro.qmd
-        - 02-microbes.qmd
-        - Experiments.qmd
+        - intro.qmd
+        - personalscience.qmd
     - part: "Science"
       chapters:
+        - Science/microbesEverywhere.qmd
+        - microbes.qmd
+        - microbes_in_you.qmd
         - science.qmd
-    - part: "Techniques"
+    - part: "Technology"
       chapters:
-        - 03-methods.qmd
-    - 06-references.qmd
+        - methods.qmd
+    - part: "Do It Yourself"
+      chapters:
+        - Experiments.qmd
+        - diy_microbiome.qmd
+    - references.qmd
 
 

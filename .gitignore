@@ -7,7 +7,7 @@ _book/
 _site/
 *.Rproj
 docs/
-
+/assets/images/
 /index_cache/
 _freeze/
 

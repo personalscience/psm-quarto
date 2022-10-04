@@ -1,4 +1,4 @@
-### Microbes above and below
+## Microbes above and below
 
 Scientists studying a water-filled fracture two miles underground at the Mponeng gold mine near Johannesburg, South Africa, discovered _Candidatus Desulforudis audaxviator_ by accident, after noticing odd levels of hydrogen compounds, by-products of the activity of an isolated bacterial colony.^[See @chivian_environmental_2008] Interestingly, this organism is a member of the same _Firmicutes_ phylum that dominates human guts, though this particular bacterium evolved quite separately from us: it hasn’t been exposed to surface water for millions of years. A systematic study of its genome revealed that, unlike other bacteria that usually live in co-dependent colonies, this one can survive all by itself, feeding on tiny bits of radioactive energy from uranium decay in an environment far removed from all other energy sources. It’s not a great life: these creatures reproduce rarely, only once every few hundred or thousand years. But at least they don’t have to worry about being consumed by predators down there.
 
