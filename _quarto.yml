@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: _book
   preview:
     port: 4200
 
