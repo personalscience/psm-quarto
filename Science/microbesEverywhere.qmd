@@ -31,7 +31,7 @@ Let's look next at some of these environments and see the odd places where micro
 ```
 
 
-```{r child="./microbesEverywhere/microbesAroundYou.Rmd"}
+```{r child="./microbesEverywhere/microbesAroundYou.qmd"}
 
 ```
 
