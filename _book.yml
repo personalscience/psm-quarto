@@ -17,13 +17,14 @@ book:
       chapters:
         - Science/microbesEverywhere.qmd
         - microbes.qmd
-        - microbes_in_you.qmd
+        - Science/microbes_in_you.qmd
         - science.qmd
     - part: "Technology"
       chapters:
         - methods.qmd
     - part: "Do It Yourself"
       chapters:
+        - "Experiments/microbes_to_watch.qmd"
         - Experiments.qmd
         - diy_microbiome.qmd
     - references.qmd

@@ -1,6 +1,6 @@
 # header.R  : load everything required for general script processing
 
-load("assets/psmObjects.rda")
+load(file.path(here::here(),"assets/psmObjects.rda"))
 
 
 knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)

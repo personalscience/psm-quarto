@@ -182,7 +182,7 @@ There are other measures of diversity as well. The *Shannon Index* borrows from 
 #| fig-cap: "Comparing two types of diversity."
 #| echo: false
 #| warning: false
-source("R/header.R")
+source(file.path(here::here(),"R/header.R"))
 plot_richness(subset_samples(gut.family.norm, Date > "2017-07-15" & Date< "2017-08-15" ), measures=c("InvSimpson","Shannon"), nrow=2, x = "Date") +
   scale_x_date(date_labels = "%b-%d", date_breaks = "1 week") +
   geom_smooth(method = "loess") + 

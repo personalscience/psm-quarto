@@ -1,11 +1,14 @@
 ---
 title: "README"
-date: "9/14/2022"
+date: "10/11/2022"
 output: github_document
 ---
 
 
-This is the official Personal Science Guide to the Microbiome, a detailed summary of how to use the Personal Science site to learn about the microbiome.
+This is the (draft) Quarto edition of the  Personal Science Guide to the Microbiome, a detailed summary of how to use the Personal Science site to learn about the microbiome.
+
+View it (for now) at [Github Pages](https://personalscience.github.io/psm-quarto/)
+
 
 A online version of the Guide is hosted at https://psm.personalscience.com. You can download the ebook in [PDF](psm.pdf) or [ePub](psm.epub).
 
