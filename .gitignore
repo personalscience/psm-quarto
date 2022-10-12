@@ -12,3 +12,6 @@ docs/
 _freeze/
 
 /.quarto/
+
+.DS_Store
+
