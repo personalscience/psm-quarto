@@ -1,3 +1,12 @@
+---
+execute:
+  cache: true
+  warning: false
+  echo: false
+  messages: false
+  
+---
+
 # My Experiments {#sec-experiments}
 
 Microbe numbers shift daily in response to your environment, so a single sample won't give much more than a brief snapshot at a single point in time. Here are some of the experiments I've tried on myself, in over 600 tests since 2014. What happens in your case?
@@ -24,8 +33,6 @@ The general consensus is that diversity is good: a greater variety of microbes e
 ```{r}
 #| label: fig-plotOneWeekDiversity
 #| fig-cap: "Diversity changes significantly day-to-day."
-#| warning: false
-#| echo: false
 
 
 source("R/header.R")
@@ -49,9 +56,6 @@ To get a sense of how much diversity can vary over a year (@fig-plotOneYearDiver
 ```{r}
 #| label: fig-plotOneYearDiversity
 #| fig-cap: "Gut diversity varies day-to-day but holds to a recognizable range within a single individual"
-#| warning: false
-#| echo: false
-
 
 diversityYear.gut.family <- subset_samples(gut.family.norm, Date > "2016-06-01" & Date < "2017-06-01")
 data = data.frame(Diversity = estimate_richness(diversityYear.gut.family, measures=c("Shannon")),
@@ -71,9 +75,6 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 {{< include Experiments/experiment-kombucha.qmd >}}
 
 
-<!-- ```{r child="Experiments/experiment-kefir.Rmd"} -->
-
-<!-- ``` -->
 
 <!-- ```{r child="Experiments/experiment-travelMexico.Rmd"} -->
 
@@ -97,7 +98,9 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 
 <!-- ``` -->
 
-<!-- ```{r child="Experiments/experiment-dentist.Rmd"} -->
+
+
+<!-- ```{r child="Experiments/experiment-dentist.qmd"} -->
 
 <!-- ``` -->
 
@@ -133,7 +136,13 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 
 <!-- ``` -->
 
-<!-- ```{r child="Experiments/experiment-sites/microbesInMouth.Rmd"} -->
+{{< include Experiments/microbesInMouth.qmd >}}
+
+
+{{< include Experiments/experiment-dentist.qmd >}}
+
+
+<!-- ```{r child="Experiments/microbesInMouth.qmd"} -->
 
 <!-- # Microbes in the mouth -->
 
