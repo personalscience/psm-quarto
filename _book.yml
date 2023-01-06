@@ -6,7 +6,7 @@ book:
   output-file: psm
   downloads: [epub, pdf, docx]
   page-footer: "Copyright © Richard Sprague 2022"
-  book-navigation: true
+  page-navigation: true
   chapters:
     - index.qmd
     - part: "General Overview"
