@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.1.145">
+<meta name="generator" content="quarto-1.2.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -255,6 +255,7 @@ div.csl-indent {
 <div class="quarto-title-meta">
 
     
+  
     
   </div>
   
@@ -317,6 +318,17 @@ De Palma, Giada, Inmaculada Nadal, Maria Carmen Collado, and Yolanda
 Sanz. 2009. <span>“Effects of a Gluten-Free Diet on Gut Microbiota and
 Immune Function in Healthy Adult Human Subjects.”</span> <em>British
 Journal of Nutrition</em> 102 (08): 1154. <a href="https://doi.org/10.1017/S0007114509371767">https://doi.org/10.1017/S0007114509371767</a>.
+</div>
+<div id="ref-dommels_survival_2009" class="csl-entry" role="doc-biblioentry">
+Dommels, Y. E. M., R. A. Kemperman, Y. E. M. P. Zebregs, R. B. Draaisma,
+A. Jol, D. A. W. Wolvers, E. E. Vaughan, and R. Albers. 2009.
+<span>“Survival of <span>Lactobacillus</span> Reuteri <span>DSM</span>
+17938 and <span>Lactobacillus</span> Rhamnosus <span>GG</span> in the
+<span>Human</span> <span>Gastrointestinal</span> <span>Tract</span> with
+<span>Daily</span> <span>Consumption</span> of a
+<span>Low</span>-<span>Fat</span> <span>Probiotic</span>
+<span>Spread</span>.”</span> <em>Applied and Environmental
+Microbiology</em> 75 (19): 6198–6204. <a href="https://doi.org/10.1128/AEM.01054-09">https://doi.org/10.1128/AEM.01054-09</a>.
 </div>
 <div id="ref-dufresne_tea_2000" class="csl-entry" role="doc-biblioentry">
 Dufresne, C., and E. Farnworth. 2000. <span>“Tea, <span>Kombucha</span>,
@@ -567,7 +579,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
     button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
     setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
       button.setAttribute("title", currentTitle);
       button.classList.remove('code-copy-button-checked');
     }, 1000);
@@ -603,24 +632,42 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
   var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
   for (var i=0; i<bibliorefs.length; i++) {
     const ref = bibliorefs[i];
-    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
-    tippyHover(ref, function() {
-      var popup = window.document.createElement('div');
-      cites.forEach(function(cite) {
-        var citeDiv = window.document.createElement('div');
-        citeDiv.classList.add('hanging-indent');
-        citeDiv.classList.add('csl-entry');
-        var biblioDiv = window.document.getElementById('ref-' + cite);
-        if (biblioDiv) {
-          citeDiv.innerHTML = biblioDiv.innerHTML;
-        }
-        popup.appendChild(citeDiv);
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
       });
-      return popup.innerHTML;
-    });
+    }
   }
 });
 </script>
