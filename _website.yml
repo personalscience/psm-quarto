@@ -1,7 +1,6 @@
 website:
   title: "Personal Science Guide to the Microbiome"
   favicon: assets/favicon.ico
-  google-analytics: "G-4RNWXLMEJR"
   reader-mode: true
   open-graph: true
   sidebar:

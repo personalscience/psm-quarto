@@ -1,7 +1,7 @@
 ---
 title: "README"
 date: "10/11/2022"
-output: github_document
+format: gfm
 ---
 
 
