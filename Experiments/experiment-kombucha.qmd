@@ -107,10 +107,11 @@ plot_bar(subset_samples(kombucha.top, Date > "2016-07-01" & Date < "2016-09-01" 
 If we squint enough, we might credit that large spike with kombucha drinking. It's possible, but then how would you explain the crash the following day, or the other apparent spikes in other parts of the chart? I conclude it's probably a coincidence. More than likely, microbes like this from the SCOBY itself are not in the beverage anyway.
 
 
-What about other microbes? Here is a heatmap showing the changes of the top 20 genus during my experiment:
+What about other microbes? Here is a heatmap showing the changes of the top 20 genus during my experiment (@fig-kombuchaExperimentPlots)
 
 ```{r}
 #| label: fig-kombuchaExperimentPlots
+#| fig-cap: Top 20 changes during my experiment
 #| echo: false
 #| message: false
 #| warning: false

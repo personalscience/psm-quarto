@@ -5,7 +5,7 @@ book:
   cover-image: assets/coverPersonalScience-quarto.jpg
   output-file: psm
   downloads: [epub, pdf, docx]
-  page-footer: "Copyright © Richard Sprague 2022"
+  page-footer: "Copyright © Richard Sprague 2023"
   page-navigation: true
   chapters:
     - index.qmd
