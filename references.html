@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -87,11 +87,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">References</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./references.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">References</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,145 +104,164 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Personal Science Guide to the Microbiome</a> 
         <div class="sidebar-tools-main">
-    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./psm.epub">
-            <i class="bi bi-bi-journal pe-1"></i>
-          Download ePub
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./psm.pdf">
-            <i class="bi bi-bi-file-pdf pe-1"></i>
-          Download PDF
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./psm.docx">
-            <i class="bi bi-bi-file-word pe-1"></i>
-          Download Docx
-          </a>
-        </li>
-    </ul>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./psm.epub">
+              <i class="bi bi-bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./psm.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./psm.docx">
+              <i class="bi bi-bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Intro</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Intro</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">General Overview</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">General Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting Started</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting Started</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./personalscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Personal Science?</span></a>
+  <a href="./personalscience.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Personal Science?</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Science</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Science</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Science/microbesEverywhere.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Microbes everywhere</span></a>
+  <a href="./Science/microbesEverywhere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Microbes everywhere</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./microbes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Microbes and you</span></a>
+  <a href="./microbes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Microbes and you</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Science/microbes_in_you.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Microbes In You</span></a>
+  <a href="./Science/microbes_in_you.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Microbes In You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./science.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Science of the Microbiome</span></a>
+  <a href="./science.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Science of the Microbiome</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Technology</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Technology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./methods.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Methods</span></a>
+  <a href="./methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Methods</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Do It Yourself</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Do It Yourself</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Experiments/microbes_to_watch.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Microbes to Watch</span></a>
+  <a href="./Experiments/microbes_to_watch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Microbes to Watch</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Experiments.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">My Experiments</span></a>
+  <a href="./Experiments.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">My Experiments</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./diy_microbiome.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Do It Yourself</span></a>
+  <a href="./diy_microbiome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">DIY Microbiome Testing</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">References</span></a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">References</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
@@ -247,7 +271,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">References</span></h1>
+<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">References</span></h1>
 </div>
 
 
@@ -262,8 +286,8 @@ div.csl-indent {
 
 </header>
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-afshinnekoo_geospatial_2015" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-afshinnekoo_geospatial_2015" class="csl-entry" role="listitem">
 Afshinnekoo, Ebrahim, Cem Meydan, Shanin Chowdhury, Dyala Jaroudi,
 Collin Boyer, Nick Bernstein, Julia M. Maritz, et al. 2015.
 <span>“Geospatial <span>Resolution</span> of <span>Human</span> and
@@ -271,7 +295,7 @@ Collin Boyer, Nick Bernstein, Julia M. Maritz, et al. 2015.
 <span>City</span>-<span>Scale</span> <span>Metagenomics</span>.”</span>
 <em>Cell Systems</em> 1 (1): 72–87. <a href="https://doi.org/10.1016/j.cels.2015.01.001">https://doi.org/10.1016/j.cels.2015.01.001</a>.
 </div>
-<div id="ref-azad_infant_2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-azad_infant_2013" class="csl-entry" role="listitem">
 Azad, Meghan B, Theodore Konya, Heather Maughan, David S Guttman,
 Catherine J Field, Malcolm R Sears, Allan B Becker, James A Scott, Anita
 L Kozyrskyj, and CHILD Study Investigators. 2013. <span>“Infant Gut
@@ -280,25 +304,25 @@ Household Pets and Siblings on Microbiota Composition and
 Diversity.”</span> <em>Allergy, Asthma &amp; Clinical Immunology</em> 9
 (1): 15. <a href="https://doi.org/10.1186/1710-1492-9-15">https://doi.org/10.1186/1710-1492-9-15</a>.
 </div>
-<div id="ref-bassis_comparison_2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-bassis_comparison_2017" class="csl-entry" role="listitem">
 Bassis, Christine M., Nicholas M. Moore, Karen Lolans, Anna M. Seekatz,
 Robert A. Weinstein, Vincent B. Young, and Mary K. Hayden. 2017.
 <span>“Comparison of Stool Versus Rectal Swab Samples and Storage
 Conditions on Bacterial Community Profiles.”</span> <em>BMC
 Microbiology</em> 17 (1). <a href="https://doi.org/10.1186/s12866-017-0983-9">https://doi.org/10.1186/s12866-017-0983-9</a>.
 </div>
-<div id="ref-blaser_missing_2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-blaser_missing_2015" class="csl-entry" role="listitem">
 Blaser, Martin J. 2015. <em>Missing Microbes: How the Overuse of
 Antibiotics Is Fueling Our Modern Plagues</em>. New York: Picador.
 </div>
-<div id="ref-butof_synergistic_2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-butof_synergistic_2018" class="csl-entry" role="listitem">
 Bütof, L., N. Wiesemann, M. Herzberg, M. Altzschner, A. Holleitner, F.
 Reith, and D. H. Nies. 2018. <span>“Synergistic Gold–Copper
 Detoxification at the Core of Gold Biomineralisation in
 <em><span>Cupriavidus</span> Metallidurans</em>.”</span>
 <em>Metallomics</em> 10 (2): 278–86. <a href="https://doi.org/10.1039/C7MT00312A">https://doi.org/10.1039/C7MT00312A</a>.
 </div>
-<div id="ref-chivian_environmental_2008" class="csl-entry" role="doc-biblioentry">
+<div id="ref-chivian_environmental_2008" class="csl-entry" role="listitem">
 Chivian, D., E. L. Brodie, E. J. Alm, D. E. Culley, P. S. Dehal, T. Z.
 DeSantis, T. M. Gihring, et al. 2008. <span>“Environmental
 <span>Genomics</span> <span>Reveals</span> a
@@ -306,20 +330,20 @@ DeSantis, T. M. Gihring, et al. 2008. <span>“Environmental
 <span>Deep</span> <span>Within</span> <span>Earth</span>.”</span>
 <em>Science</em> 322 (5899): 275–78. <a href="https://doi.org/10.1126/science.1155495">https://doi.org/10.1126/science.1155495</a>.
 </div>
-<div id="ref-david_host_2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-david_host_2014" class="csl-entry" role="listitem">
 David, Lawrence A., Arne C. Materna, Jonathan Friedman, Maria I.
 Campos-Baptista, Matthew C. Blackburn, Allison Perrotta, Susan E.
 Erdman, and Eric J. Alm. 2014. <span>“Host Lifestyle Affects Human
 Microbiota on Daily Timescales.”</span> <em>Genome Biology</em> 15 (7):
 R89. <a href="https://doi.org/10.1186/gb-2014-15-7-r89">https://doi.org/10.1186/gb-2014-15-7-r89</a>.
 </div>
-<div id="ref-de_palma_effects_2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-de_palma_effects_2009" class="csl-entry" role="listitem">
 De Palma, Giada, Inmaculada Nadal, Maria Carmen Collado, and Yolanda
 Sanz. 2009. <span>“Effects of a Gluten-Free Diet on Gut Microbiota and
 Immune Function in Healthy Adult Human Subjects.”</span> <em>British
 Journal of Nutrition</em> 102 (08): 1154. <a href="https://doi.org/10.1017/S0007114509371767">https://doi.org/10.1017/S0007114509371767</a>.
 </div>
-<div id="ref-dommels_survival_2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dommels_survival_2009" class="csl-entry" role="listitem">
 Dommels, Y. E. M., R. A. Kemperman, Y. E. M. P. Zebregs, R. B. Draaisma,
 A. Jol, D. A. W. Wolvers, E. E. Vaughan, and R. Albers. 2009.
 <span>“Survival of <span>Lactobacillus</span> Reuteri <span>DSM</span>
@@ -330,50 +354,50 @@ A. Jol, D. A. W. Wolvers, E. E. Vaughan, and R. Albers. 2009.
 <span>Spread</span>.”</span> <em>Applied and Environmental
 Microbiology</em> 75 (19): 6198–6204. <a href="https://doi.org/10.1128/AEM.01054-09">https://doi.org/10.1128/AEM.01054-09</a>.
 </div>
-<div id="ref-dufresne_tea_2000" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dufresne_tea_2000" class="csl-entry" role="listitem">
 Dufresne, C., and E. Farnworth. 2000. <span>“Tea, <span>Kombucha</span>,
 and Health: A Review.”</span> <em>Food Research International</em> 33
 (6): 409–21. <a href="https://doi.org/10.1016/S0963-9969(00)00067-3">https://doi.org/10.1016/S0963-9969(00)00067-3</a>.
 </div>
-<div id="ref-feehley_healthy_2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-feehley_healthy_2019" class="csl-entry" role="listitem">
 Feehley, Taylor, Catherine H. Plunkett, Riyue Bao, Sung Min Choi Hong,
 Elliot Culleen, Pedro Belda-Ferre, Evelyn Campbell, et al. 2019.
 <span>“Healthy Infants Harbor Intestinal Bacteria That Protect Against
 Food Allergy.”</span> <em>Nature Medicine</em> 25 (3): 448–53. <a href="https://doi.org/10.1038/s41591-018-0324-z">https://doi.org/10.1038/s41591-018-0324-z</a>.
 </div>
-<div id="ref-frank_molecular-phylogenetic_2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-frank_molecular-phylogenetic_2007" class="csl-entry" role="listitem">
 Frank, D. N., A. L. St. Amand, R. A. Feldman, E. C. Boedeker, N. Harpaz,
 and N. R. Pace. 2007. <span>“Molecular-Phylogenetic Characterization of
 Microbial Community Imbalances in Human Inflammatory Bowel
 Diseases.”</span> <em>Proceedings of the National Academy of
 Sciences</em> 104 (34): 13780–85. <a href="https://doi.org/10.1073/pnas.0706625104">https://doi.org/10.1073/pnas.0706625104</a>.
 </div>
-<div id="ref-herran_gluten-degrading_2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-herran_gluten-degrading_2017" class="csl-entry" role="listitem">
 Herrán, Alexandra R., Jénifer Pérez-Andrés, Alberto Caminero, Esther
 Nistal, Santiago Vivas, José María Ruiz de Morales, and Javier
 Casqueiro. 2017. <span>“Gluten-Degrading Bacteria Are Present in the
 Human Small Intestine of Healthy Volunteers and Celiac Patients.”</span>
 <em>Research in Microbiology</em>, May. <a href="https://doi.org/10.1016/j.resmic.2017.04.008">https://doi.org/10.1016/j.resmic.2017.04.008</a>.
 </div>
-<div id="ref-hope_overview_2002" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hope_overview_2002" class="csl-entry" role="listitem">
 Hope, B. K., R. Baker, E. D. Edel, A. T. Hogue, W. D. Schlosser, R.
 Whiting, R. M. McDowell, and R. A. Morales. 2002. <span>“<a href="https://www.ncbi.nlm.nih.gov/pubmed/12022671">An Overview of the
 <span>Salmonella</span> Enteritidis Risk Assessment for Shell Eggs and
 Egg Products</a>.”</span> <em>Risk Analysis: An Official Publication of
 the Society for Risk Analysis</em> 22 (2): 203–18.
 </div>
-<div id="ref-horneck_space_2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-horneck_space_2010" class="csl-entry" role="listitem">
 Horneck, G., D. M. Klaus, and R. L. Mancinelli. 2010. <span>“Space
 <span>Microbiology</span>.”</span> <em>Microbiology and Molecular
 Biology Reviews</em> 74 (1): 121–56. <a href="https://doi.org/10.1128/MMBR.00016-09">https://doi.org/10.1128/MMBR.00016-09</a>.
 </div>
-<div id="ref-hotchin_survival_1967" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hotchin_survival_1967" class="csl-entry" role="listitem">
 Hotchin, J., P. Lorenz, A. Markusen, and C. Hemenway. 1967. <span>“<a href="https://www.ncbi.nlm.nih.gov/pubmed/11973839">The Survival of
 Micro-Organisms in Space. <span>Further</span> Rocket and Balloon-Borne
 Exposure Experiments</a>.”</span> <em>Life Sciences and Space
 Research</em> 5: 1–6.
 </div>
-<div id="ref-jaspers_ecological_2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-jaspers_ecological_2004" class="csl-entry" role="listitem">
 Jaspers, E., and J. Overmann. 2004. <span>“Ecological
 <span>Significance</span> of <span>Microdiversity</span>:
 <span>Identical</span> 16S <span class="nocase">rRNA</span>
@@ -383,28 +407,28 @@ Jaspers, E., and J. Overmann. 2004. <span>“Ecological
 <span>Ecophysiologies</span>.”</span> <em>Applied and Environmental
 Microbiology</em> 70 (8): 4831–39. <a href="https://doi.org/10.1128/AEM.70.8.4831-4839.2004">https://doi.org/10.1128/AEM.70.8.4831-4839.2004</a>.
 </div>
-<div id="ref-jing_links_2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-jing_links_2015" class="csl-entry" role="listitem">
 Jing, Xin, Nathan J. Sanders, Yu Shi, Haiyan Chu, Aimée T. Classen, Ke
 Zhao, Litong Chen, Yue Shi, Youxu Jiang, and Jin-Sheng He. 2015.
 <span>“The Links Between Ecosystem Multifunctionality and Above- and
 Belowground Biodiversity Are Mediated by Climate.”</span> <em>Nature
 Communications</em> 6 (1). <a href="https://doi.org/10.1038/ncomms9159">https://doi.org/10.1038/ncomms9159</a>.
 </div>
-<div id="ref-khan_biodegradation_2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-khan_biodegradation_2017" class="csl-entry" role="listitem">
 Khan, Sehroon, Sadia Nadir, Zia Ullah Shah, Aamer Ali Shah, Samantha C.
 Karunarathna, Jianchu Xu, Afsar Khan, Shahzad Munir, and Fariha Hasan.
 2017. <span>“Biodegradation of Polyester Polyurethane by
 <span>Aspergillus</span> Tubingensis.”</span> <em>Environmental
 Pollution</em> 225 (June): 469–80. <a href="https://doi.org/10.1016/j.envpol.2017.03.012">https://doi.org/10.1016/j.envpol.2017.03.012</a>.
 </div>
-<div id="ref-kothary_infective_2001" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kothary_infective_2001" class="csl-entry" role="listitem">
 Kothary, Mahendra H., and Uma S. Babu. 2001.
 <span>“<span>INFECTIVE</span> <span>DOSE</span> <span>OF</span>
 <span>FOODBORNE</span> <span>PATHOGENS</span> <span>IN</span>
 <span>VOLUNTEERS</span>: <span>A</span> <span>REVIEW</span>.”</span>
 <em>Journal of Food Safety</em> 21 (1): 49–68. <a href="https://doi.org/10.1111/j.1745-4565.2001.tb00307.x">https://doi.org/10.1111/j.1745-4565.2001.tb00307.x</a>.
 </div>
-<div id="ref-kraal_prevalence_2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kraal_prevalence_2014" class="csl-entry" role="listitem">
 Kraal, Laurens, Sahar Abubucker, Karthik Kota, Michael A. Fischbach, and
 Makedonka Mitreva. 2014. <span>“The <span>Prevalence</span> of
 <span>Species</span> and <span>Strains</span> in the <span>Human</span>
@@ -412,12 +436,12 @@ Makedonka Mitreva. 2014. <span>“The <span>Prevalence</span> of
 <span>Experimental</span> <span>Efforts</span>.”</span> Edited by Niyaz
 Ahmed. <em>PLoS ONE</em> 9 (5): e97279. <a href="https://doi.org/10.1371/journal.pone.0097279">https://doi.org/10.1371/journal.pone.0097279</a>.
 </div>
-<div id="ref-locey_scaling_2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-locey_scaling_2016" class="csl-entry" role="listitem">
 Locey, Kenneth J., and Jay T. Lennon. 2016. <span>“Scaling Laws Predict
 Global Microbial Diversity.”</span> <em>Proceedings of the National
 Academy of Sciences</em> 113 (21): 5970–75. <a href="https://doi.org/10.1073/pnas.1521291113">https://doi.org/10.1073/pnas.1521291113</a>.
 </div>
-<div id="ref-mcdonald_american_2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-mcdonald_american_2018" class="csl-entry" role="listitem">
 McDonald, Daniel, Embriette Hyde, Justine W. Debelius, James T. Morton,
 Antonio Gonzalez, Gail Ackermann, Alexander A. Aksenov, et al. 2018.
 <span>“American <span>Gut</span>: An <span>Open</span>
@@ -425,32 +449,32 @@ Antonio Gonzalez, Gail Ackermann, Alexander A. Aksenov, et al. 2018.
 <span>Microbiome</span> <span>Research</span>.”</span> Edited by Casey
 S. Greene. <em>mSystems</em> 3 (3). <a href="https://doi.org/10.1128/mSystems.00031-18">https://doi.org/10.1128/mSystems.00031-18</a>.
 </div>
-<div id="ref-munoz-gonzalez_ability_2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-munoz-gonzalez_ability_2015" class="csl-entry" role="listitem">
 Muñoz-González, Carolina, Carolina Cueva, M. Ángeles Pozo-Bayón, and M.
 Victoria Moreno-Arribas. 2015. <span>“Ability of Human Oral Microbiota
 to Produce Wine Odorant Aglycones from Odourless Grape Glycosidic Aroma
 Precursors.”</span> <em>Food Chemistry</em> 187 (November): 112–19. <a href="https://doi.org/10.1016/j.foodchem.2015.04.068">https://doi.org/10.1016/j.foodchem.2015.04.068</a>.
 </div>
-<div id="ref-myhrvold_modernist_2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-myhrvold_modernist_2011" class="csl-entry" role="listitem">
 Myhrvold, Nathan, Chris Young, Maxime Bilet, and Ryan Matthew Smith.
 2011. <em>Modernist Cuisine: The Art and Science of Cooking</em>. 1st
 ed. Bellevue, Wash: Cooking Lab.
 </div>
-<div id="ref-otles_kefir_2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-otles_kefir_2003" class="csl-entry" role="listitem">
 Otles, Semih, and Ozlem Cagindi Otles Semih. 2003. <span>“Kefir :
 <span>A</span> <span>Probiotic</span>
 <span>Dairy</span>-<span>Composition</span>, <span>Nutritional</span>
 and <span>Therapeutic</span> <span>Aspects</span>.”</span> <em>Pakistan
 Journal of Nutrition</em> 2 (2): 54–59. <a href="https://doi.org/10.3923/pjn.2003.54.59">https://doi.org/10.3923/pjn.2003.54.59</a>.
 </div>
-<div id="ref-pollock_madness_2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-pollock_madness_2018" class="csl-entry" role="listitem">
 Pollock, Jolinda, Laura Glendinning, Trong Wisedchanwet, and Mick
 Watson. 2018. <span>“The Madness of Microbiome: <span>Attempting</span>
 to Find Consensus <span>‘Best Practice’</span> for 16S Microbiome
 Studies.”</span> <em>Applied and Environmental Microbiology</em>,
 February, AEM.02627–17. <a href="https://doi.org/10.1128/AEM.02627-17">https://doi.org/10.1128/AEM.02627-17</a>.
 </div>
-<div id="ref-rizzello_highly_2007" class="csl-entry" role="doc-biblioentry">
+<div id="ref-rizzello_highly_2007" class="csl-entry" role="listitem">
 Rizzello, Carlo G., Maria De Angelis, Raffaella Di Cagno, Alessandra
 Camarca, Marco Silano, Ilario Losito, Massimo De Vincenzi, et al. 2007.
 <span>“Highly Efficient Gluten Degradation by Lactobacilli and Fungal
@@ -458,42 +482,42 @@ Proteases During Food Processing: New Perspectives for Celiac
 Disease.”</span> <em>Applied and Environmental Microbiology</em> 73
 (14): 4499–4507. <a href="https://doi.org/10.1128/AEM.00260-07">https://doi.org/10.1128/AEM.00260-07</a>.
 </div>
-<div id="ref-roberts_self-experimentation_2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-roberts_self-experimentation_2004" class="csl-entry" role="listitem">
 Roberts, Seth. 2004. <span>“Self-Experimentation as a Source of New
 Ideas: <span>Ten</span> Examples about Sleep, Mood, Health, and
 Weight.”</span> <a href="http://www.escholarship.org/uc/item/2xc2h866">http://www.escholarship.org/uc/item/2xc2h866</a>.
 </div>
-<div id="ref-roberts_shangri-diet" class="csl-entry" role="doc-biblioentry">
+<div id="ref-roberts_shangri-diet" class="csl-entry" role="listitem">
 Roberts, Seth Douglass. 2007. <em>The <span>Shangri</span>-La Diet: The
 No Hunger, Eat Anything, Weight-Loss Plan</em>. Perigee trade pbk. ed.
 New York: Penguin.
 </div>
-<div id="ref-shade_diversity_2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-shade_diversity_2017" class="csl-entry" role="listitem">
 Shade, Ashley. 2017. <span>“Diversity Is the Question, Not the
 Answer.”</span> <em>The ISME Journal</em> 11 (1): 1–6. <a href="https://doi.org/10.1038/ismej.2016.118">https://doi.org/10.1038/ismej.2016.118</a>.
 </div>
-<div id="ref-song_cohabiting_2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-song_cohabiting_2013" class="csl-entry" role="listitem">
 Song, Se Jin, Christian Lauber, Elizabeth K Costello, Catherine A
 Lozupone, Gregory Humphrey, Donna Berg-Lyons, J Gregory Caporaso, et al.
 2013. <span>“Cohabiting Family Members Share Microbiota with One Another
 and with Their Dogs.”</span> <em>eLife</em> 2 (April). <a href="https://doi.org/10.7554/eLife.00458">https://doi.org/10.7554/eLife.00458</a>.
 </div>
-<div id="ref-spector_diet_2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-spector_diet_2016" class="csl-entry" role="listitem">
 Spector, T. D. 2016. <em>Diet Myth: Why the Secret to Health and Weight
 Loss Is Already in Your Gut</em>.
 </div>
-<div id="ref-thaiss_microbiome_2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-thaiss_microbiome_2018" class="csl-entry" role="listitem">
 Thaiss, Christoph A. 2018. <span>“Microbiome Dynamics in
 Obesity.”</span> <em>Science</em> 362 (6417): 903–4. <a href="https://doi.org/10.1126/science.aav6870">https://doi.org/10.1126/science.aav6870</a>.
 </div>
-<div id="ref-the_wissard_science_team_microbial_2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-the_wissard_science_team_microbial_2014" class="csl-entry" role="listitem">
 the WISSARD Science Team, Brent C. Christner, John C. Priscu, Amanda M.
 Achberger, Carlo Barbante, Sasha P. Carter, Knut Christianson, et al.
 2014. <span>“A Microbial Ecosystem Beneath the <span>West</span>
 <span>Antarctic</span> Ice Sheet.”</span> <em>Nature</em> 512 (7514):
 310–13. <a href="https://doi.org/10.1038/nature13667">https://doi.org/10.1038/nature13667</a>.
 </div>
-<div id="ref-de_la_torre_survival_2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-de_la_torre_survival_2010" class="csl-entry" role="listitem">
 Torre, Rosa de la, Leopoldo G. Sancho, Gerda Horneck, Asunción de los
 Ríos, Jacek Wierzchos, Karen Olsson-Francis, Charles S. Cockell, Petra
 Rettberg, Thomas Berger, and Jean-Pierre P. de Vera. 2010.
@@ -501,7 +525,7 @@ Rettberg, Thomas Berger, and Jean-Pierre P. de Vera. 2010.
 Conditions – <span>Results</span> of the <span>Lithopanspermia</span>
 Experiments.”</span> <em>Icarus</em> 208 (2): 735–48. <a href="https://doi.org/10.1016/j.icarus.2010.03.010">https://doi.org/10.1016/j.icarus.2010.03.010</a>.
 </div>
-<div id="ref-vriezinga_randomized_2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-vriezinga_randomized_2014" class="csl-entry" role="listitem">
 Vriezinga, Sabine L., Renata Auricchio, Enzo Bravi, Gemma Castillejo,
 Anna Chmielewska, Paula Crespo Escobar, Sanja Kolaček, et al. 2014.
 <span>“Randomized <span>Feeding</span> <span>Intervention</span> in
@@ -509,7 +533,7 @@ Anna Chmielewska, Paula Crespo Escobar, Sanja Kolaček, et al. 2014.
 <span>Celiac</span> <span>Disease</span>.”</span> <em>New England
 Journal of Medicine</em> 371 (14): 1304–15. <a href="https://doi.org/10.1056/NEJMoa1404172">https://doi.org/10.1056/NEJMoa1404172</a>.
 </div>
-<div id="ref-walsh_microbial_2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-walsh_microbial_2016" class="csl-entry" role="listitem">
 Walsh, Aaron M., Fiona Crispie, Kieran Kilcawley, Orla O’Sullivan,
 Maurice G. O’Sullivan, Marcus J. Claesson, and Paul D. Cotter. 2016.
 <span>“Microbial <span>Succession</span> and <span>Flavor</span>
@@ -517,14 +541,14 @@ Maurice G. O’Sullivan, Marcus J. Claesson, and Paul D. Cotter. 2016.
 <span>Beverage</span> <span>Kefir</span>.”</span> Edited by Rachel J.
 Dutton. <em>mSystems</em> 1 (5): e00052–16. <a href="https://doi.org/10.1128/mSystems.00052-16">https://doi.org/10.1128/mSystems.00052-16</a>.
 </div>
-<div id="ref-zhernakova_population-based_2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zhernakova_population-based_2016" class="csl-entry" role="listitem">
 Zhernakova, Alexandra, Alexander Kurilshikov, Marc Jan Bonder, Ettje F.
 Tigchelaar, Melanie Schirmer, Tommi Vatanen, Zlatan Mujagic, et al.
 2016. <span>“Population-Based Metagenomics Analysis Reveals Markers for
 Gut Microbiome Composition and Diversity.”</span> <em>Science</em> 352
 (6285): 565–69. <a href="https://doi.org/10.1126/science.aad3369">https://doi.org/10.1126/science.aad3369</a>.
 </div>
-<div id="ref-zupancic_analysis_2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zupancic_analysis_2012" class="csl-entry" role="listitem">
 Zupancic, Margaret L., Brandi L. Cantarel, Zhenqiu Liu, Elliott F.
 Drabek, Kathleen A. Ryan, Shana Cirimotich, Cheron Jones, et al. 2012.
 <span>“Analysis of the <span>Gut</span> <span>Microbiota</span> in the
@@ -565,9 +589,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -632,6 +670,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -674,7 +798,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./diy_microbiome.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Do It Yourself</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">DIY Microbiome Testing</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
@@ -683,7 +807,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Copyright © Richard Sprague 2022</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright © Richard Sprague 2023</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

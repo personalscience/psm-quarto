@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.280">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -88,11 +88,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">My Experiments</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Experiments/microbes_to_watch.html">Do It Yourself</a></li><li class="breadcrumb-item"><a href="./Experiments.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">My Experiments</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -100,164 +105,183 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Personal Science Guide to the Microbiome</a> 
         <div class="sidebar-tools-main">
-    <a href="" title="Download" id="sidebar-tool-dropdown-0" class="sidebar-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-download"></i></a>
-    <ul class="dropdown-menu" aria-labelledby="sidebar-tool-dropdown-0">
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./psm.epub">
-            <i class="bi bi-bi-journal pe-1"></i>
-          Download ePub
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./psm.pdf">
-            <i class="bi bi-bi-file-pdf pe-1"></i>
-          Download PDF
-          </a>
-        </li>
-        <li>
-          <a class="dropdown-item sidebar-tools-main-item" href="./psm.docx">
-            <i class="bi bi-bi-file-word pe-1"></i>
-          Download Docx
-          </a>
-        </li>
-    </ul>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./psm.epub">
+              <i class="bi bi-bi-journal pe-1"></i>
+            Download ePub
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./psm.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./psm.docx">
+              <i class="bi bi-bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
 </div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Intro</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Intro</span></span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">General Overview</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">General Overview</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting Started</span></a>
+  <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Getting Started</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./personalscience.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Personal Science?</span></a>
+  <a href="./personalscience.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">What is Personal Science?</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Science</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Science</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Science/microbesEverywhere.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Microbes everywhere</span></a>
+  <a href="./Science/microbesEverywhere.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Microbes everywhere</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./microbes.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Microbes and you</span></a>
+  <a href="./microbes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Microbes and you</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Science/microbes_in_you.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Microbes In You</span></a>
+  <a href="./Science/microbes_in_you.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Microbes In You</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./science.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Science of the Microbiome</span></a>
+  <a href="./science.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">The Science of the Microbiome</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">Technology</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">Technology</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./methods.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Methods</span></a>
+  <a href="./methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Methods</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">Do It Yourself</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+ <span class="menu-text">Do It Yourself</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Experiments/microbes_to_watch.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Microbes to Watch</span></a>
+  <a href="./Experiments/microbes_to_watch.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Microbes to Watch</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Experiments.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">My Experiments</span></a>
+  <a href="./Experiments.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">My Experiments</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./diy_microbiome.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Do It Yourself</span></a>
+  <a href="./diy_microbiome.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">DIY Microbiome Testing</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">References</span></a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">References</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-experimentSummary" id="toc-sec-experimentSummary" class="nav-link active" data-scroll-target="#sec-experimentSummary"><span class="toc-section-number">10.1</span>  Summary of My Experiments</a>
+  <li><a href="#sec-experimentSummary" id="toc-sec-experimentSummary" class="nav-link active" data-scroll-target="#sec-experimentSummary"><span class="header-section-number">10.1</span> Summary of My Experiments</a>
   <ul class="collapse">
-  <li><a href="#diversity" id="toc-diversity" class="nav-link" data-scroll-target="#diversity"><span class="toc-section-number">10.1.1</span>  Diversity</a></li>
+  <li><a href="#diversity" id="toc-diversity" class="nav-link" data-scroll-target="#diversity"><span class="header-section-number">10.1.1</span> Diversity</a></li>
   </ul></li>
-  <li><a href="#sec-experimentKefir" id="toc-sec-experimentKefir" class="nav-link" data-scroll-target="#sec-experimentKefir"><span class="toc-section-number">10.2</span>  Kefir and the Microbiome</a></li>
-  <li><a href="#sec-experimentKombucha" id="toc-sec-experimentKombucha" class="nav-link" data-scroll-target="#sec-experimentKombucha"><span class="toc-section-number">10.3</span>  Kombucha</a></li>
-  <li><a href="#experimentProbiotics" id="toc-experimentProbiotics" class="nav-link" data-scroll-target="#experimentProbiotics"><span class="toc-section-number">10.4</span>  Do Probiotics Work?</a>
+  <li><a href="#sec-experimentKefir" id="toc-sec-experimentKefir" class="nav-link" data-scroll-target="#sec-experimentKefir"><span class="header-section-number">10.2</span> Kefir and the Microbiome</a></li>
+  <li><a href="#sec-experimentKombucha" id="toc-sec-experimentKombucha" class="nav-link" data-scroll-target="#sec-experimentKombucha"><span class="header-section-number">10.3</span> Kombucha</a></li>
+  <li><a href="#experimentProbiotics" id="toc-experimentProbiotics" class="nav-link" data-scroll-target="#experimentProbiotics"><span class="header-section-number">10.4</span> Do Probiotics Work?</a>
   <ul class="collapse">
-  <li><a href="#vsl" id="toc-vsl" class="nav-link" data-scroll-target="#vsl"><span class="toc-section-number">10.4.1</span>  VSL</a></li>
+  <li><a href="#vsl" id="toc-vsl" class="nav-link" data-scroll-target="#vsl"><span class="header-section-number">10.4.1</span> VSL</a></li>
   </ul></li>
-  <li><a href="#startMouth" id="toc-startMouth" class="nav-link" data-scroll-target="#startMouth"><span class="toc-section-number">10.5</span>  My Oral Microbiome*</a></li>
-  <li><a href="#experimentDentist" id="toc-experimentDentist" class="nav-link" data-scroll-target="#experimentDentist"><span class="toc-section-number">10.6</span>  Visiting the dentist</a></li>
-  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions"><span class="toc-section-number">10.7</span>  Conclusions</a></li>
+  <li><a href="#startMouth" id="toc-startMouth" class="nav-link" data-scroll-target="#startMouth"><span class="header-section-number">10.5</span> My Oral Microbiome*</a></li>
+  <li><a href="#experimentDentist" id="toc-experimentDentist" class="nav-link" data-scroll-target="#experimentDentist"><span class="header-section-number">10.6</span> Visiting the dentist</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions"><span class="header-section-number">10.7</span> Conclusions</a></li>
   </ul>
 </nav>
     </div>
@@ -266,7 +290,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-experiments" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">My Experiments</span></span></h1>
+<h1 class="title"><span id="sec-experiments" class="quarto-section-identifier"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">My Experiments</span></span></h1>
 </div>
 
 
@@ -299,7 +323,7 @@ div.csl-indent {
 <div class="cell-output-display">
 <div id="fig-plotOneWeekDiversity" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
-<p><img src="assets/images/Experiments_files/figure-html/fig-plotOneWeekDiversity-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="assets/images/Experiments_files/figure-html/fig-plotOneWeekDiversity-1.png" class="quarto-discovered-preview-image img-fluid figure-img" width="672"></p>
 <p></p><figcaption class="figure-caption">Figure&nbsp;10.1: Diversity changes significantly day-to-day.</figcaption><p></p>
 </figure>
 </div>
@@ -373,7 +397,7 @@ div.csl-indent {
 <div class="cell" data-hash="Experiments_cache/html/tbl-kefirTable1_ef1e27d1ac1976d48e7da296d7652c43">
 <div class="cell-output-display">
 <div id="tbl-kefirTable1" class="anchored">
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped small">
 <caption>Table&nbsp;10.1: Results from sequencing two distinct types of kefir (Genus)</caption>
 <thead>
 <tr class="header">
@@ -419,7 +443,7 @@ div.csl-indent {
 <div class="cell" data-hash="Experiments_cache/html/tbl-kefirTable2_9e93627fee265db49c9e218d621c0709">
 <div class="cell-output-display">
 <div id="tbl-kefirTable2" class="anchored">
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped small">
 <caption>Table&nbsp;10.2: Results from sequencing two distinct types of kefir (Phylum)</caption>
 <thead>
 <tr class="header">
@@ -492,18 +516,12 @@ div.csl-indent {
 </div>
 </div>
 <p>Although most people have none, it’s not unusual for people to have a few percentage points of <em>Fusicatenibacter</em> regardless of whether they regularly drink kefir.</p>
-<div class="cell" data-hash="Experiments_cache/html/unnamed-chunk-12_d14210a6411b432ea6e2183deb252a3d">
-
-</div>
 <p>But other than this clear change in my gut microbiome, did I notice any differences in health?</p>
 <p>Here the answer is more ambiguous. As a healthy adult, I don’t have any particular “problems” I’m trying to solve. I remained healthy during the period of the experiment, so the kefir certainly doesn’t appear to have made anything worse. My sleep hasn’t substantially changed either, and although I’m generally pretty even-tempered, I didn’t notice any particular changes positive or negative in my mood either.</p>
 <p>The one area where, subjectively, where I feel different is in my overall sense of energy. Although I can’t put my finger on anything quantitative, I <em>do</em> notice that I seem to be a little more energetic on days when I drink kefir. Measuring that more precisely may be a good followup test.</p>
 </section>
 <section id="sec-experimentKombucha" class="level2" data-number="10.3">
 <h2 data-number="10.3" class="anchored" data-anchor-id="sec-experimentKombucha"><span class="header-section-number">10.3</span> Kombucha</h2>
-<div class="cell" data-hash="Experiments_cache/html/kombuchaSetup_80b980e3b73c9c1c3e20d1f779637be0">
-
-</div>
 <p>For healthy bacteria-rich drinks that affect the microbiome, many people immediately think of kombucha. Served chilled during the summer, it has a well-deserved reputation as a natural refreshing alternative to soft drinks. Despite its tangy, mildly sweet taste, it has a surprisingly low amount of sugar: only six grams in a serving<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, compared to more than 20 grams in the same amount of orange juice or 39 grams in a can of Coke.</p>
 <p>The sugar is missing because it’s been eaten by microbes, a complex blend of bacteria and yeast that convert regular tea (usually black, but also oolong or green tea) into a complex, flavorful beverage. The fermentation process is ideal for adding other ingredients for taste, so there is no end to the interesting flavors possible, giving rise to a highly competitive commercial market: U.S. supermarkets sold $180&nbsp;Million of the drinks in 2015.</p>
 <p>Kombucha fermentation begins with a SCOBY, a “Symbiotic Colony of Bacteria and Yeast”, a pancake-sized disk-shaped gelitintous object also known as a “mother” or “mushroom”, which it sort of resembles. Despite the nickname, the only funji in the SCOBY are yeasts, combined with a complex blend of bacteria and other single-celled microbes from many parts of the tree of life. The different microbes need one another to produce the distinctive sweet and fizzy taste. Yeast cells convert sucrose into fructose and glucose and produce ethanol; the bacteria convert glucose into gluconic acid and fructose into acetic acid; caffeine from the tea stimulates the entire reaction, especially the production of cellulose by special strains of bacteria.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
@@ -549,13 +567,13 @@ div.csl-indent {
 </div>
 </div>
 <p>If we squint enough, we might credit that large spike with kombucha drinking. It’s possible, but then how would you explain the crash the following day, or the other apparent spikes in other parts of the chart? I conclude it’s probably a coincidence. More than likely, microbes like this from the SCOBY itself are not in the beverage anyway.</p>
-<p>What about other microbes? Here is a heatmap showing the changes of the top 20 genus during my experiment:</p>
-<div class="cell" data-hash="Experiments_cache/html/fig-kombuchaExperimentPlots_79a58d74aaafc158429ace95b85aed3a">
+<p>What about other microbes? Here is a heatmap showing the changes of the top 20 genus during my experiment (<a href="#fig-kombuchaExperimentPlots">Figure&nbsp;<span>10.11</span></a>)</p>
+<div class="cell" data-hash="Experiments_cache/html/fig-kombuchaExperimentPlots_8767f7e4cb7dc1304d3981af19420cc6">
 <div class="cell-output-display">
 <div id="fig-kombuchaExperimentPlots" class="quarto-figure quarto-figure-center anchored">
 <figure class="figure">
 <p><img src="assets/images/Experiments_files/figure-html/fig-kombuchaExperimentPlots-1.png" class="img-fluid figure-img" width="672"></p>
-<p></p><figcaption class="figure-caption">Figure&nbsp;10.11: <strong>?(caption)</strong></figcaption><p></p>
+<p></p><figcaption class="figure-caption">Figure&nbsp;10.11: Top 20 changes during my experiment</figcaption><p></p>
 </figure>
 </div>
 </div>
@@ -586,9 +604,6 @@ div.csl-indent {
 </div>
 <p>Although we can’t positively credit kombucha for that spike in <em>Bacillus</em> during my experiment, it’s interesting that I had none of it in the weeks beforehand, and that it disappeared again in the weeks afterwards. I drink this brand of kombucha occasionally, and yes the same microbe shows up occasionally too, sometimes a few days afterwards.</p>
 <p>In my years of testing, I rarely see <em>Bacillus</em> in my gut microbiome, but the few times when it <em>does</em> appear, there seems to be a relationship to drinking the same brand of kombucha a few days beforehand. There are also times when I drink kombucha and <em>don’t</em> detect this microbe, so the association isn’t perfect, but then again this was the only time I had so much of this brand all at once.</p>
-<div class="cell" data-hash="Experiments_cache/html/unnamed-chunk-19_6da10cef5e068c07ba2200e051c933d4">
-
-</div>
 <p>My conclusion: when consumed in large amounts, GT’s Gingerade Kombucha leaves new <em>Bacillus</em> microbes in my gut. Although they don’t appear to stick around permanently, the association is strong enough that I bet it works in you too. Other microbes, including so-called “probiotic” ones, don’t change much at all.</p>
 <p>But don’t take my word for it. The full dataset and analysis tools are on Github: <a href="https://github.com/richardsprague/kombucha" class="uri">https://github.com/richardsprague/kombucha</a></p>
 <p>There is much more analysis that can be done with this data. Some of the ideas you might try are:</p>
@@ -619,13 +634,7 @@ div.csl-indent {
 <p>I’m especially interested in learning whether the probiotics in the supplements actually “stick” in my gut. Taking so many billion organisms in pill form all at once may very well show up in a single gut test result, but how do I know they’re not simply being flushed out of my system? Or worse, how do I know I’m not just crowding out something more important?</p>
 <p>To find out, I tracked my microbiome daily while taking a high quality probiotic supplement, one that I received directly from the manufacturer. To be a fair test, one worth publicizing the brand name for better or worse, I’d want to try it out on multiple people, at multiple times. Because I didn’t do that this time, I won’t name the product other than to say that it’s from a “good” brand and well-recommended.</p>
 <p>I took the supplement once per day for nine days. I would have continued for an even ten, but I was starting to feel uncomfortably bloated those last few days. While that’s an encouraging sign that the pill is working, I didn’t want to do anything to seriously mess up my gut. I’m doing this experiment for fun, and it won’t be fun if I get sick as a result.</p>
-<div class="cell" data-hash="Experiments_cache/html/unnamed-chunk-31_65f3149c4155e83619c991adb975b07f">
-
-</div>
 <p>Let’s look for at the overall abundances for the two genera that were in the supplements: <em>Bifidobacterium</em> and <em>Lactobacillus</em>. (<a href="#fig-probioticPlotAmounts">Figure&nbsp;<span>10.14</span></a>).</p>
-<div class="cell" data-hash="Experiments_cache/html/fig-probioticOverallAbundances_08ba6eeecf1be1f1477ace2a97587d21">
-
-</div>
 <div class="cell" data-hash="Experiments_cache/html/fig-probioticPlotAmounts_973a09ac8372e43d8f069920dc867a50">
 <div class="cell-output-display">
 <div id="fig-probioticPlotAmounts" class="quarto-figure quarto-figure-center anchored">
@@ -648,9 +657,6 @@ div.csl-indent {
 </figure>
 </div>
 </div>
-</div>
-<div class="cell" data-hash="Experiments_cache/html/fig-plotAmountsLong_c388f87b0469831f4d65c09397e911d3">
-
 </div>
 <p>Hmmmm, it seems the levels of those particular genera <em>did</em> increase a tiny bit at the end of the experiment, but there are plenty of other times on the chart where I see spikes too. In fact, the biggest increase happened in September when I was living it up in New Orleans, eating red beans and rice – and no probiotic pills.</p>
 <p>Maybe my view of the microbe ecology, hoping to see results in only one or two genera, is too simplistic. We know that the gut is an ecosystem. If you add lots of one type of organism, maybe that affects the abundances and ratios of other microbes, all of whom are in constant competition with one another. Is there a way to tell <em>overall</em> how the microbes are changing?</p>
@@ -756,7 +762,7 @@ div.csl-indent {
 <p>To microbes, your body looks like a hollow tube: skin on the outside, gut on the inside, and a mouth to allow passage between the two. Like purgatory, the mouth is a gatekeeper where new microbes wait before being whisked into the heavenly warm breeding grounds of the digestive system. But it’s no easy waiting room either - the mouth contains many highly-distinct eco-systems, each as different from one another as the Sahara desert is to the bottom of the ocean. Most microbiome and genetic tests ask you to swab the inside of the cheek - an easy, straightforward place teeming with bacteria, but the bacteria in the cheeks can be very different from those on the tongue or the lips. I tested them all one morning right after waking up.</p>
 <div class="cell" data-hash="Experiments_cache/html/mouthshow_093a5ef2c3e315dd97c122b2e954400e">
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -924,9 +930,6 @@ div.csl-indent {
 </div>
 </div>
 <p>Regular testing of my microbiome often yields unexpected surprises, and this one has me stumped. Beginning in December 2016 and for no apparent reason, my mouth was colonized suddenly by a particular species of <em>Streptococcus</em> that had not been there before. Why? I’m not aware of any major lifestyle or other changes to cause this: same toothpaste, same living conditions. A few dietary experiments here and there, but nothing that coincides with these changes.</p>
-<div class="cell" data-hash="Experiments_cache/html/fig-mouthStrep_e126944f23e5396f907f4aed0e78db71">
-
-</div>
 <p>At the species level, I eliminated all samples with under 10,000 reads. We see something interesting: for no apparent reason, the species of <em>Streptococcus</em> detected in my mouth has changed. Suddenly, in December 2016 my mouth was colonized by a particular species that had not been there before. Why? I hadn’t done anything special; I’m not aware of any major lifestyle or other changes to cause this.</p>
 <p>I confirmed with the lab that it’s not contamination. What’s especially odd is that I experienced a shift like this twice now in one year. After comfortably floating along with Species <em>Streptococcus sp. BS35a</em> for more than six months, suddenly in August the balance shifted again, this time to <em>Streptococcus sp. 11aTha1</em>. Will it shift again? Who knows?</p>
 <div class="cell" data-hash="Experiments_cache/html/fig-mouth_passenger_975c5e30a4dee13fd05640551d46d686">
@@ -965,7 +968,7 @@ div.csl-indent {
 <p>Here’s a more numerical breakdown at the genus level of the top ten microbes and their abundances before and after first visit:</p>
 <div class="cell" data-hash="Experiments_cache/html/mouthBeforeAfter1_bc01430c4ac1c90b72a0f7d2c6805f59">
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -1033,7 +1036,7 @@ div.csl-indent {
 <p>To understand more precisely what changed, let’s look more closely just at the ones that disappeared:</p>
 <div class="cell" data-hash="Experiments_cache/html/mouthUnique_e04c64552db0afff1207496b7fdaab6b">
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -1089,7 +1092,7 @@ div.csl-indent {
 <p>But that was just for a single dental visit. What happened when I repeated the experiment the following year?</p>
 <div class="cell" data-hash="Experiments_cache/html/mouthBeforeAfter2_dcf07118ef55f44154585c777cd7677f">
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -1156,7 +1159,7 @@ div.csl-indent {
 <p>Like last time and as expected, I found no new taxa <em>after</em> the cleaning, but here are the genus-level items that disappeared, all at such low abundances that we should probably chalk them up to contamination or other errors that creep in unavoidably between the time I take the sample and when they show up in my results.</p>
 <div class="cell" data-hash="Experiments_cache/html/beforeAfterDentist2_0407966a9b1e7083533ffeb931a92ff1">
 <div class="cell-output-display">
-<table class="table table-sm table-striped">
+<table class="table table-sm table-striped small">
 <thead>
 <tr class="header">
 <th style="text-align: left;"></th>
@@ -1189,13 +1192,7 @@ div.csl-indent {
 </div>
 </div>
 <p>Let’s start with the genus level. How much <em>Streptococcus</em> has been in my mouth, and to the degree that we know at the species level, which types of species are there?</p>
-<div class="cell" data-hash="Experiments_cache/html/unnamed-chunk-29_4a814feee2ad77e1ceb94e4d26c22c01">
-
-</div>
 <p>Hmm, lots of different species here. But what about the cavity-linked <em>S. Mutans</em>? It turns out that I <em>do</em> have a tiny bit, but in just one sample long ago. And sure enough, my dentist confirms that I have no cavities.</p>
-<div class="cell" data-hash="Experiments_cache/html/checkMutans_63751562c1ac1fbfa84853afd85c8608">
-
-</div>
 <p>Keeping <em>S. Mutans</em> at bay is an important way that I’ll try to avoid cavities, so to continue the experiment, I’ll look at what I can do to manipulate the mouth biome, beyond what I eat and drink. A key part of that is how I brush my teeth.</p>
 <p>Like most Americans, for years I brushed exclusively with one of the name brand toothpastes, usually Crest or Colgate. But looking more closely at the labels, I see two ingredients that will be of interest to my oral microbiome: triclosan<a href="#fn13" class="footnote-ref" id="fnref13" role="doc-noteref"><sup>13</sup></a> and sodium lauryl sulfate, both of which are are known to affect microbes. In addition, the fluoride in the paste works partly by making the tooth enamel more difficult for bacteria.</p>
 <p>Pre-modern humans didn’t have toothpaste, and certainly not the antimicrobial kinds that have become popular only in the past generation. Of course, tooth decay was a painful reality for many of our ancestors as well, but there is good evidence that serious teeth problems didn’t begin until the widespread availability of sugar after the European immigration to America five hundred years ago. Skulls of humans before agriculture show almost no tooth decay. Wild animals, including primates like gorillas and chimpanzees get far fewer tooth problems than modern people, another clue that teeth brushing isn’t the whole story.</p>
@@ -1218,26 +1215,26 @@ div.csl-indent {
 <p>Second, 16S technology has proven accuracy when identifying unique organisms, so I can generally trust information about the overall level of diversity regardless of specific proportions. Since diversity tends to correlate with health – and is manipulable based on what I eat – my own experience shows that the changes I see in these results go up and down consistently in the expected way. Even if specific points on my microbiome map are fuzzy, the overall landmarks appear to be solid.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-david_host_2014" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-david_host_2014" class="csl-entry" role="listitem">
 David, Lawrence A., Arne C. Materna, Jonathan Friedman, Maria I. Campos-Baptista, Matthew C. Blackburn, Allison Perrotta, Susan E. Erdman, and Eric J. Alm. 2014. <span>“Host Lifestyle Affects Human Microbiota on Daily Timescales.”</span> <em>Genome Biology</em> 15 (7): R89. <a href="https://doi.org/10.1186/gb-2014-15-7-r89">https://doi.org/10.1186/gb-2014-15-7-r89</a>.
 </div>
-<div id="ref-dommels_survival_2009" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dommels_survival_2009" class="csl-entry" role="listitem">
 Dommels, Y. E. M., R. A. Kemperman, Y. E. M. P. Zebregs, R. B. Draaisma, A. Jol, D. A. W. Wolvers, E. E. Vaughan, and R. Albers. 2009. <span>“Survival of <span>Lactobacillus</span> Reuteri <span>DSM</span> 17938 and <span>Lactobacillus</span> Rhamnosus <span>GG</span> in the <span>Human</span> <span>Gastrointestinal</span> <span>Tract</span> with <span>Daily</span> <span>Consumption</span> of a <span>Low</span>-<span>Fat</span> <span>Probiotic</span> <span>Spread</span>.”</span> <em>Applied and Environmental Microbiology</em> 75 (19): 6198–6204. <a href="https://doi.org/10.1128/AEM.01054-09">https://doi.org/10.1128/AEM.01054-09</a>.
 </div>
-<div id="ref-dufresne_tea_2000" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dufresne_tea_2000" class="csl-entry" role="listitem">
 Dufresne, C., and E. Farnworth. 2000. <span>“Tea, <span>Kombucha</span>, and Health: A Review.”</span> <em>Food Research International</em> 33 (6): 409–21. <a href="https://doi.org/10.1016/S0963-9969(00)00067-3">https://doi.org/10.1016/S0963-9969(00)00067-3</a>.
 </div>
-<div id="ref-munoz-gonzalez_ability_2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-munoz-gonzalez_ability_2015" class="csl-entry" role="listitem">
 Muñoz-González, Carolina, Carolina Cueva, M. Ángeles Pozo-Bayón, and M. Victoria Moreno-Arribas. 2015. <span>“Ability of Human Oral Microbiota to Produce Wine Odorant Aglycones from Odourless Grape Glycosidic Aroma Precursors.”</span> <em>Food Chemistry</em> 187 (November): 112–19. <a href="https://doi.org/10.1016/j.foodchem.2015.04.068">https://doi.org/10.1016/j.foodchem.2015.04.068</a>.
 </div>
-<div id="ref-otles_kefir_2003" class="csl-entry" role="doc-biblioentry">
+<div id="ref-otles_kefir_2003" class="csl-entry" role="listitem">
 Otles, Semih, and Ozlem Cagindi Otles Semih. 2003. <span>“Kefir : <span>A</span> <span>Probiotic</span> <span>Dairy</span>-<span>Composition</span>, <span>Nutritional</span> and <span>Therapeutic</span> <span>Aspects</span>.”</span> <em>Pakistan Journal of Nutrition</em> 2 (2): 54–59. <a href="https://doi.org/10.3923/pjn.2003.54.59">https://doi.org/10.3923/pjn.2003.54.59</a>.
 </div>
-<div id="ref-walsh_microbial_2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-walsh_microbial_2016" class="csl-entry" role="listitem">
 Walsh, Aaron M., Fiona Crispie, Kieran Kilcawley, Orla O’Sullivan, Maurice G. O’Sullivan, Marcus J. Claesson, and Paul D. Cotter. 2016. <span>“Microbial <span>Succession</span> and <span>Flavor</span> <span>Production</span> in the <span>Fermented</span> <span>Dairy</span> <span>Beverage</span> <span>Kefir</span>.”</span> Edited by Rachel J. Dutton. <em>mSystems</em> 1 (5): e00052–16. <a href="https://doi.org/10.1128/mSystems.00052-16">https://doi.org/10.1128/mSystems.00052-16</a>.
 </div>
-<div id="ref-zhernakova_population-based_2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zhernakova_population-based_2016" class="csl-entry" role="listitem">
 Zhernakova, Alexandra, Alexander Kurilshikov, Marc Jan Bonder, Ettje F. Tigchelaar, Melanie Schirmer, Tommi Vatanen, Zlatan Mujagic, et al. 2016. <span>“Population-Based Metagenomics Analysis Reveals Markers for Gut Microbiome Composition and Diversity.”</span> <em>Science</em> 352 (6285): 565–69. <a href="https://doi.org/10.1126/science.aad3369">https://doi.org/10.1126/science.aad3369</a>.
 </div>
 </div>
@@ -1289,9 +1286,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1356,6 +1367,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1403,14 +1500,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
   <div class="nav-page nav-page-next">
       <a href="./diy_microbiome.html" class="pagination-link">
-        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Do It Yourself</span></span> <i class="bi bi-arrow-right-short"></i>
+        <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">DIY Microbiome Testing</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Copyright © Richard Sprague 2022</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Copyright © Richard Sprague 2023</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 
