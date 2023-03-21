@@ -1,7 +1,17 @@
+project:
+  type: book
+  output-dir: docs
+  preview:
+      port: 4200
+
+execute:
+  cache: true
+  freeze: auto
 
 book:
   title: "Personal Science Guide to the Microbiome"
   author: Richard Sprague
+  date: last-modified
   cover-image: assets/coverPersonalScience-quarto.jpg
   output-file: psm
   downloads: [epub, pdf, docx]
@@ -30,6 +40,22 @@ book:
     - Next/references-books.qmd
     - references.qmd
 
+bibliography: 
+  - psm-refs.bib
+
+format:
+  html:
+    theme: litera
+    code-fold: true
+    toc: true
+    css: css/normalize.css
+    df-print: paged
+    cover-image: assets/coverPersonalScience-quarto.jpg
+  pdf:
+    documentclass: scrreprt
+    title: Personal Science Guide to the Microbiome
+  epub:
+    css: css/middleman.css
 
 execute:
   freeze: auto

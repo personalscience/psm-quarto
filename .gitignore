@@ -19,3 +19,14 @@ _freeze/
 /Experiments_cache
 /Experiments_files
 junk.txt
+Science/microbes_in_you_cache/
+Science/microbesEverywhere_cache/
+methods_cache/
+
+# Ignore all caches
+/Experiments_cache
+/Experiments_files
+junk.txt
+Science/microbes_in_you_cache/
+Science/microbesEverywhere_cache/
+methods_cache/
