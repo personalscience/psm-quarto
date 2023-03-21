@@ -57,5 +57,3 @@ format:
   epub:
     css: css/middleman.css
 
-execute:
-  freeze: auto
