@@ -15,3 +15,7 @@ _freeze/
 
 .DS_Store
 
+# Ignore all caches
+/Experiments_cache
+/Experiments_files
+junk.txt

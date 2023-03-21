@@ -15,10 +15,10 @@ book:
         - personalscience.qmd
     - part: "Science"
       chapters:
+        - Science/intro-to-biology.qmd
         - Science/microbesEverywhere.qmd
         - microbes.qmd
         - Science/microbes_in_you.qmd
-        - science.qmd
     - part: "Technology"
       chapters:
         - methods.qmd
@@ -27,6 +27,9 @@ book:
         - "Experiments/microbes_to_watch.qmd"
         - Experiments.qmd
         - diy_microbiome.qmd
+    - Next/references-books.qmd
     - references.qmd
 
 
+execute:
+  freeze: auto

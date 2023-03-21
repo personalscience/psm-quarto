@@ -11,7 +11,9 @@ What you're really wondering is how does your sample compare to others? Do you h
 
 ## Phylum {#microbesPhylum}
 
+::: {.callout-important}
 This section is under construction
+:::
 
 The gut microbiome of most westerners is dominated by _Firmicutes_ and _Bacteroidetes_, which together make up 80% or more of the total sample.  Most people also have smaller amounts of _Actinobacteria_,  _Proteobacteria_ and _Verrucomicrobia_. This overall composition is so common in healthy people that it's tempting to assume their dominance is "natural" or "normal", but like much else with the microbiome, the situation is different outside the western world, a clue that it's difficult to summarize a single individual's microbiome as "good" or "bad." It all depends.
 
@@ -19,7 +21,9 @@ The gut microbiome of most westerners is dominated by _Firmicutes_ and _Bacteroi
 
 ## Genus {#microbesGenus}
 
+::: {.callout-important}
 This section is under construction
+:::
 
 You're likely to hear most about the genus level because it's the most detail that cheap sequencing technologies can get right -- most of the time. 
 
@@ -29,7 +33,9 @@ _Bifidobacterium_ is a key component of virtually all popular probiotic suppleme
 
 ## Species
 
+::: {.callout-important}
 This section is under construction
+:::
 
 When you hear the term "species", you probably think of a specific kind of creature, like a dog or a cat. More generally, among the kinds of plants and animals we encounter in the visible world, the term "species" refers broadly to organisms that can mate with one another to produce offspring of the same kind. Cats and dogs are different species because they can't mate with each other.
 

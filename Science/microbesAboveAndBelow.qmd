@@ -5,12 +5,13 @@ Scientists studying a water-filled fracture two miles underground at the Mponeng
 Subglacial Lake Whillans is a lake buried under more than 800 meters of ice in the West Antarctic. [A careful underground bore hole](http://www.nature.com/nature/journal/v512/n7514/full/nature13667.html) inserted by a team from Louisiana State University in 2014 found almost 4,000 different kinds of bacteria and archaea surviving under that ice.^[@the_wissard_science_team_microbial_2014] The total bacterial count was not that different from what you’d find in surface lakes on other parts of the planet, a fact that is especially surprising for an environment that hasn’t had a ray of light in millions of years. The bacteria instead thrive on iron, sulphur, and nitrogen as energy sources. ^[http://earthsky.org/earth/diverse-microbes-found-deep-beneath-antarctic-ice-sheet]
 
 
+
 ```{r}
 #| echo: FALSE
-#| label: fig-antarctic-image
+#| label: fig-antarctic-image1
 #| fig-cap: "Go another 2,600 feet to find microbes. \nPhoto: [NASA/JPL-Caltech](https://www.jpl.nasa.gov/news/news.php?release=2013-077)"
 
-knitr::include_graphics(file.path(here::here(),"Science/assets/sciencewissard20130228-full.jpg"))
+knitr::include_graphics(file.path(here::here(),"Science","assets/scienceMicrobesSky.jpg"))
 ```
 
 
@@ -47,7 +48,7 @@ Traces of sea plankton, for example, have been found in space, on the surface of
 
 What is known is that between a quarter and two-thirds of microbes in the air are entirely new and undiscovered organisms. A study of the “air microbiome” above New York City found bacteria and viruses that apparently originated in water, soil, vegetation, as well as in animals and humans, but even then few patterns emerge. Although there appear to be distinct microbial environments, on the land versus water, for example, overall many of these organisms are quite hardy and seem to find themselves migrating all over the place.
 
-
+They can migrate in the smoke from a wildfire. A 2008 study by University of Idaho scientists^[@kobziar_pyroaerobiology_2018] identified a dozen microbes that are transported in plumes of smoke, despite temperatures of 250º C or more. The new science of *Pyroaerobiology* is uncovering many examples where smoke-transported microbes have an impact on forest health and more. 
 
 Still other microbes thrive in radioactive environments, like the dangerous interior of a nuclear reactor. *Deinococcus radiodurans* is an extremophile member of Phylum Deinococcus-Thermus that boasts an impressive built-in DNA repair mechanism that lets it survive cold, vacuum, acid, light, dehydration – you name it. It remains unbothered by radiation levels more than 1,000 times higher than would kill a human.
 

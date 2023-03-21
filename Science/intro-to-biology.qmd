@@ -39,11 +39,7 @@ If you do that, you'll find that the number of mutations necessary to generate a
 
 That's how complicated the world of bacteria can be.
 
-```{r echo=FALSE}
-knitr::include_graphics(rep("./assets/scienceTreeLife.jpg"))
-```
-
-
+![Humans are only a tiny piece of the explosive variety of life.](assets/scienceTreeLife.jpg)
 
 ### Taxonomy
 
