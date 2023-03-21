@@ -1,4 +1,8 @@
 # References
 
+<!-- {{< include Next/references-books.qmd >}} -->
+
+# Academic References
+
 ::: {#refs}
 :::

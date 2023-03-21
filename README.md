@@ -1,6 +1,5 @@
-README
-================
-10/11/22
+# README
+2023-03-21
 
 This is the (draft) Quarto edition of the Personal Science Guide to the
 Microbiome, a detailed summary of how to use the Personal Science site

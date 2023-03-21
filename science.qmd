@@ -2,12 +2,12 @@
 
 
 
-<!-- --- -->
 
 
-<!-- ```{r child="Science/microbeTechnology.qmd"} -->
+```{r child="Science/intro-to-biology.qmd"}
 
-<!-- ``` -->
+```
+
 
 
 
