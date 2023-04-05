@@ -25,7 +25,7 @@ book:
         - personalscience.qmd
     - part: "Science"
       chapters:
-        - Science/intro-to-biology.qmd
+        - "Projects/Personal Science/PSM/PSM-Science/Intro to Biology.md"
         - Science/microbesEverywhere.qmd
         - microbes.qmd
         - Science/microbes_in_you.qmd
@@ -34,11 +34,17 @@ book:
         - methods.qmd
     - part: "Do It Yourself"
       chapters:
-        - "Experiments/microbes_to_watch.qmd"
+        # - "Experiments/microbes_to_watch.qmd"
+        - "Projects/Personal Science/PSM/PSM-Next/Microbes to Watch.md"
         - Experiments.qmd
-        - diy_microbiome.qmd
-    - Next/references-books.qmd
-    - references.qmd
+        - "Projects/Personal Science/PSM/PSM-Next/DIY Microbiome Testing.md"
+    - part: "Next Steps"
+      chapters:
+        - "Projects/Personal Science/PSM/PSM-Next/Beyond Bacteria.md"
+        - "Projects/Personal Science/PSM/PSM-Next/Microbes and Genes.md"
+        - Next/references-books.qmd
+        - Next/references-academic.qmd
+        - references.qmd
 
 bibliography: 
   - psm-refs.bib

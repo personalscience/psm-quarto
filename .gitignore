@@ -7,6 +7,7 @@ _book/
 _site/
 *.Rproj
 docs/
+fromjoplin
 /assets/images/
 /index_cache/
 _freeze/
