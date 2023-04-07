@@ -112,13 +112,18 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 
 <!-- ``` -->
 
-<!-- ```{r child="Experiments/experiment-sleep.Rmd"} -->
 
-<!-- ``` -->
 
-<!-- ```{r child="Experiments/experiment-food.Rmd"} -->
+{{< include Experiments/experiment-sleep.qmd >}}
 
-<!-- ``` -->
+
+{{< include Experiments/experiment-sniffle.qmd >}}
+
+<!---
+
+```{r child="Experiments/experiment-food.Rmd"} -->
+
+<!-- ```
 
 <!-- ```{r child="Experiments/experiment-dietChange.Rmd"} -->
 
