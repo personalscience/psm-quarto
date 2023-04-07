@@ -1,4 +1,4 @@
-# Microbes and you {#sec-scienceMicrobesYou}
+# Microbes and You {#sec-scienceMicrobesYou}
 
 ## The promise and disappointment of genetic testing
 If you want to optimize your health, you’ll eventually need to understand more about your genes. Wearable devices like FitBit or Apple Watch, or a nutrition or dieting app like MyFitnessPal, can help optimize some aspects of your physical body but hard work and discipline will take you only so far. As you reach the limits of how much you can change, you’ll settle into the discovery that the genetic component is undeniable.  Over one million customers of the genetic testing company 23andme have opted to look at their genes in part to understand better what their own limits are.

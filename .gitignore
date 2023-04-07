@@ -8,6 +8,7 @@ _site/
 *.Rproj
 docs/
 fromjoplin
+publish
 /assets/images/
 /index_cache/
 _freeze/

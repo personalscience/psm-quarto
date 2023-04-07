@@ -22,12 +22,12 @@ book:
     - part: "General Overview"
       chapters:
         - intro.qmd
-        - personalscience.qmd
+        - "Projects/Personal Science/PSM/What is Personal Science.md"
     - part: "Science"
       chapters:
         - "Projects/Personal Science/PSM/PSM-Science/Intro to Biology.md"
         - Science/microbesEverywhere.qmd
-        - microbes.qmd
+        - "Projects/Personal Science/PSM/PSM-Science/Microbes and You.md"
         - Science/microbes_in_you.qmd
     - part: "Technology"
       chapters:
