@@ -119,6 +119,11 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 
 {{< include Experiments/experiment-sniffle.qmd >}}
 
+{{< include Experiments/experiment-food.qmd >}}
+
+
+{{< include Experiments/experiment-methods.qmd >}}
+
 <!---
 
 ```{r child="Experiments/experiment-food.Rmd"} -->
@@ -129,7 +134,7 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 
 <!-- ``` -->
 
-<!-- ```{r child="Experiments/experiment-methods.Rmd"} -->
+
 
 <!-- #How does collection method influence the result? -->
 
