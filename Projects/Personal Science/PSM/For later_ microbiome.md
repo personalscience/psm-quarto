@@ -1,4 +1,11 @@
 
+## Gut-Brain
+
+[Science Magazine](https://www.science.org/content/article/your-gut-directly-connected-your-brain-newly-discovered-neuron-circuit)
+
+> a new study reveals the gut has a much more direct connection to the brain through a neural circuit that allows it to transmit signals in mere seconds.
+
+
 
 ## Microbiome uniqueness
 

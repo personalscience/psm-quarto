@@ -28,14 +28,14 @@ Instead of the macronutrients, maybe we can learn something by looking at a spec
 
 By tracking daily, I'm able to see trends and relationships that wouldn't show up in a normal large trial.
 
-
+::: {.content-visible when-format="html"}
 You can look at all my data here:
 
 <iframe width="900" height="800" scrolling="yes" frameborder="no"  src="https://personalscience.shinyapps.io/shinyactinodb/"> </iframe>
+:::
 
----
 
-
+***
 
 I occasionally eat ground flax seed, a few tablespoons mixed into other foods. How does it affect my microbiome compared to the days when I _don't_ eat it?
 
