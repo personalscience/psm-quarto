@@ -98,6 +98,8 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 
 ```
 
+```{r child="Experiments/experiment_akkermansia.qmd"}
+```
 
 
 <!-- ```{r child="Experiments/experiment-dentist.qmd"} -->

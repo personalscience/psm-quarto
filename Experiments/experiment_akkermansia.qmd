@@ -1,0 +1,15 @@
+## Akkermansia and me {#experimentAkkermansia}
+
+This is my Akkermansia levels over time.
+
+```{r}
+#| label: fig-AkkermansiaAbundances
+#| echo: false
+#| message: false
+#| fig-cap: "Levels of this key microbe over time"
+
+
+
+mhg_taxa_plot(sprague.genus.norm,"Akkermansia")
+
+```
