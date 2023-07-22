@@ -23,12 +23,12 @@ book:
     - part: "General Overview"
       chapters:
         - intro.qmd
-        - "Projects/Personal Science/PSM/What is Personal Science.md"
+        - "downloads/What is Personal Science.md"
     - part: "Science"
       chapters:
-        - "Projects/Personal Science/PSM/PSM-Science/Intro to Biology.md"
+        - "downloads/Intro to Biology.md"
         - Science/microbesEverywhere.qmd
-        - "Projects/Personal Science/PSM/PSM-Science/Microbes and You.md"
+        - "downloads/Microbes and You.md"
         - Science/microbes_in_you.qmd
     - part: "Technology"
       chapters:
@@ -36,13 +36,13 @@ book:
     - part: "Do It Yourself"
       chapters:
         # - "Experiments/microbes_to_watch.qmd"
-        - "Projects/Personal Science/PSM/PSM-Next/Microbes to Watch.md"
+        - "downloads/Microbes to Watch.md"
         - Experiments.qmd
-        - "Projects/Personal Science/PSM/PSM-Next/DIY Microbiome Testing.md"
+        - "downloads/DIY Microbiome Testing.md"
     - part: "Next Steps"
       chapters:
-        - "Projects/Personal Science/PSM/PSM-Next/Beyond Bacteria.md"
-        - "Projects/Personal Science/PSM/PSM-Next/Microbes and Genes.md"
+        - "downloads/Beyond Bacteria.md"
+        - "downloads/Microbes and Genes.md"
         - Next/references-books.qmd
         - Next/references-academic.qmd
         - references.qmd
