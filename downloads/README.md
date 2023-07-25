@@ -1,8 +1,3 @@
----
-categories: []
-title: README
----
-
 
 This is the (draft) Quarto edition of the  Personal Science Guide to the Microbiome, a detailed summary of how to use the Personal Science site to learn about the microbiome.
 
@@ -18,3 +13,4 @@ The final result is published here:
 [https://personalscience.github.io/psm-quarto/](https://personalscience.github.io/psm-quarto/)
 
 and a mirror copy is at https://psm.personalscience.com
+

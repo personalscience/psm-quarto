@@ -20,7 +20,7 @@ def main(notebook_name):
      # check if save_path directory exists, if not create it
     if not os.path.exists(save_path):
         os.mkdir(save_path)
-    notebook_handling.export_notebook(notebook_name, frontmatter=True)
+    notebook_handling.export_notebook(notebook_name, frontmatter=False)
        # Check if the directory exists
     if not os.path.isdir(save_path):
         print(f"Error: Directory not found: {save_path}")

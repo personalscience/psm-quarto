@@ -1,9 +1,4 @@
 ---
-categories: []
-title: DIY Microbiome Testing
----
-
----
 title: DIY Microbiome Testing
 ---
 

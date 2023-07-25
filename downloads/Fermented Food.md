@@ -1,8 +1,3 @@
----
-categories: []
-title: Fermented Food
----
-
 
 ## Fermented Food
 
@@ -76,4 +71,6 @@ Cover with water and leave on the counter for 3-7 days
   * 1/4 tsp salt
   * 1/2 pound cucumbers in 1/2" slices
 
-Fill with water, cover with a cloth and leave for 3-7 days
+Fill with water, cover with a cloth and leave for 3-7 days 
+
+

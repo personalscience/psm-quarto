@@ -1,9 +1,4 @@
 ---
-categories: []
-title: Microbes and Genes
----
-
----
 title: "Microbes and Genes"
 ---
 
@@ -53,3 +48,6 @@ This one’s been proven in mice to be regulated in part by microbes.^[see this 
 The site xcode.in has a summary of [useful sites for getting the most out of your raw data](https://www.xcode.in/dna-and-health/10-useful-sites-getting-23andme-ancestry-com-family-tree-dna-raw-data)
 
 The website [Genetic Life Hacks](http://geneticlifehacks.com) has another list of [23andme SNPS that relate to the microbiome](http://www.geneticlifehacks.com/how-our-genes-shape-our-gut-microbiome-and-our-weight/).
+
+
+

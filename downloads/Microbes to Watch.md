@@ -1,8 +1,3 @@
----
-categories: []
-title: Microbes to Watch
----
-
 # Microbes to Watch {#sec-microbes}
 
 
@@ -107,3 +102,6 @@ For example, there are many different strains of E. coli. Some strains of E. col
 Strains can also be used to study the evolution of a particular species. By comparing the genomes of different strains of a species, scientists can learn about how the species has evolved over time. This information can help scientists to understand how the species is likely to respond to changes in the environment.
 
 In other words, a strain is a group of organisms within a species that share certain characteristics. Strains can be defined based on their physical appearance, their genetic makeup, or their response to certain environmental conditions. Strains are often used in microbiology to study the diversity of a particular species, and to study the evolution of a particular species.
+
+
+

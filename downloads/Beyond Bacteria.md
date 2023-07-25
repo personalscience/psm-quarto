@@ -1,8 +1,3 @@
----
-categories: []
-title: Beyond Bacteria
----
-
 ## Beyond Bacteria 
 
 
@@ -50,3 +45,7 @@ There’s no solid evidence for this yet, but if true, it points in the same dis
 #### The gut phageome
 
 About half of all people appear to share at least some of a core group of phages, leading some scientists to speculate that, beyond the microbiome may lay a "Healthy gut phageome" (HGP). Another group of phages seems to be much rarer, occuring generally in people of various disease states. Could it be that it's the *phages*, not the microbes themselves that drive some types of disease?^[see @manrique_healthy_2016 [full text](http://www.pnas.org/content/113/37/10400.abstract ))]
+
+
+
+

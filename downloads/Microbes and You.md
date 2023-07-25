@@ -1,8 +1,3 @@
----
-categories: []
-title: Microbes and You
----
-
 # Microbes and You {#sec-scienceMicrobesYou}
 
 ## The promise and disappointment of genetic testing
@@ -71,3 +66,12 @@ Diet is one way. What you eat is an input to the entire ecosystem.
 Where you live -- your environment -- is another. From the air you breathe (is it clean? cold?) to the amount of stress you face, change your immediate surroundings and you will change the ecosystem.
 
 If we no longer think of our bodies as independent parts, then our treatment options must be holistic. No intervention should be done without considering the consequences it has on the whole. Similarly, it may often (usually?) be true that the best treatments are dietary or environmental -- facing the entire holobiont at once.
+
+
+
+
+
+
+
+
+

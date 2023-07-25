@@ -1,8 +1,3 @@
----
-categories: []
-title: Intro to Biology
----
-
 
 
 
@@ -88,3 +83,9 @@ In fact, that’s exactly what bioinformaticians do, and numerous software packa
 Perhaps the biggest challenge is the volume of data to be handled, which can easily be measured in gigabytes for a simple organism, but can require entire server farms in the case of some real-world biological systems. For that reason, much of bioinformatics is about optimizations to improve the speed of processing a large data set, or to simply the presentation in a way that can reveal the most biologically interesting aspects of a problem without wading in over-complexity.
 
 One special protein, DNA, can store information.
+
+
+
+
+
+

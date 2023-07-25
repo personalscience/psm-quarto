@@ -1,8 +1,3 @@
----
-categories: []
-title: What is Personal Science
----
-
 
 # What is Personal Science? {#sec-personal_science}
 
