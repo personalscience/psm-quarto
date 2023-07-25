@@ -228,6 +228,7 @@ dupes_dates <- sort(c(paste0("sample",stringr::str_pad(seq(1,26,1),width=2, pad 
 
 # here are the taxa that are found both in uBiome's clinical list and in the Explorer list
 
+both_lists <- stringr::str_subset(taxa_names(me.gut.dupes),stringr::str_c(clinical_genus, collapse = "|"))
 
 clinical.ps <- subset_taxa(me.gut.dupes,Genus %in% stringr::str_subset(taxa_names(me.gut.dupes),stringr::str_c(clinical_genus, collapse = "|")))
 
@@ -237,7 +238,7 @@ clinical_table <- as.matrix(otu_table(clinical.ps)/10000)
 colnames(clinical_table) <- dupes_dates
 ```
 
-There are 12 genus-level taxa on both lists (`r stringr::str_subset(taxa_names(me.gut.dupes),stringr::str_c(clinical_genus, collapse = "|"))`)
+There are 12 genus-level taxa on both lists (`r both_lists`)
 
 Here are the correlations _between_ the clinical taxa
 

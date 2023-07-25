@@ -2,9 +2,13 @@
 
 I don't often get colds, at least not _serious_ ones that keep me in bed. But this past Spring, there had been something going around. Most of my family was spared, but then my teenager had to stay home from school. A few days later I felt a prickly sensation in the back of my throat. Nothing serious, but just enough to make me wonder if I might be catching one too. I started to drink more liquids, tried to slow down at work, took extra care to get to bed on time, and did whatever else I could to stave it off.
 
-To no avail. Here's how my nose microbiome faired a week before, the week of, and the week after a nasty rhinovirus hit me with the sniffles and a cough (Figure \@ref(fig:setupSniffle)).
+To no avail. Here's how my nose microbiome faired a week before, the week of, and the week after a nasty rhinovirus hit me with the sniffles and a cough @fig-setupSniffle. 
 
-```{r setupSniffle, fig.cap="My genus level nose microbiome as tested the week before, during, and after a case of the sniffles. Lighter colors mean higher abundances."}
+```{r}
+#| label: fig-setupSniffle
+#| fig-cap: "My genus level nose microbiome as tested the week before, during, and after a case of the sniffles. Lighter colors mean higher abundances."
+#| echo: false
+
 
 sniffle.ssr <- c(111009, 111164, 111165, 112641, 269242)
 sniffle.nose.genus <- subset_samples(sprague.genus.norm, Site=="nose" & SSR %in% sniffle.ssr)
