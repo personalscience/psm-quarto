@@ -9,6 +9,8 @@ library(tidyverse)
 library(ggthemes)
 library(phyloseq)
 library(psmr)
+library(knitr)
+library(kableExtra)
 
 theme_set( theme_light(base_family = "MarkPro"))
 theme_set(theme_economist() +theme(axis.title.x=element_blank()))# + scale_colour_economist())
