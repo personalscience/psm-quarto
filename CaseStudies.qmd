@@ -1,4 +1,14 @@
+---
+execute:
+  cache: true
+  warning: false
+  echo: false
+  messages: false
+  
+---
+
 # Case Studies {#caseStudies}
+
 
 Hundreds of people have sent me their microbiome results. Here are some examples showing how I walk through specific cases. 
 
@@ -32,6 +42,6 @@ source("R/header.R")
 
 {{< include CaseStudies/caseStudyLyme.qmd >}}
 
-{{< include CaseStudies/caseStudyGutIssues.qmd >}}
-
+<!-- {{< include CaseStudies/caseStudyGutIssues.qmd >}}
+ -->
 

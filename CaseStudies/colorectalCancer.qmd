@@ -1,10 +1,5 @@
 ## Colorectal Cancer {#caseStudyCancer}
 
-```{r}
-knitr::opts_chunk$set(echo=FALSE, warning=FALSE, message=FALSE)
-source("../R/loadMHGData.R")
-```
-
 
 ```{r caseStudyccr2setup}
 ccr.phylum <- subset_samples(people.phylum,SSR==36161)

@@ -3,43 +3,51 @@
 >>Healthy people are all alike; every unhealthy person is unhealthy in their own way. 
 >> - Leo Tolstoy _Anna Karenina_.
 
-A statistically-generated NMDS diagram is an easy way to show hundreds of samples at one time. Samples that are more similar to one another are shown closer together, forming "clusters" that can give us an idea of which people are most similar.  (Figure \@ref(fig:plotCaseStudyAll))
+A statistically-generated NMDS diagram is an easy way to show hundreds of samples at one time. Samples that are more similar to one another are shown closer together, forming "clusters" that can give us an idea of which people are most similar.  (@fig-plotCaseStudyAll)
 
-```{r plotCaseStudyAll, results = "hide", fig.cap = "Overall clustering of hundreds of unique samples in my database." }
+
+```{r}
+#| label: fig-plotCaseStudyAll
+#| fig-cap:  "Overall clustering of hundreds of unique samples in my database." 
 
 # healthy.ssrs <- sample_data(subset_samples(people.all, Condition == "Healthy"))$SSR
 # healthy.phylum <- subset_samples(people.phylum,SSR %in% healthy.ssrs)
 # healthy.family <- subset_samples(people.family,SSR %in% healthy.ssrs)
 
 # further anonymize the names in this chart
-p.family.gut <- subset_samples(people.family, Site=="gut")
-unique_names <- unique(sample_data(p.family.gut)$Username)
-new_names <- paste0("U",seq(1,length(unique_names)))
-u.df <- data_frame(old_name = unique_names,new_name = new_names)
+sink("/dev/null")
+        p.family.gut <- subset_samples(people.family, Site == "gut")
+        unique_names <- unique(sample_data(p.family.gut)$Username)
+        new_names <- paste0("U", seq(1, length(unique_names)))
+        u.df <- data_frame(old_name = unique_names, new_name = new_names)
 
-p.names <- sample_data(p.family.gut)$Username
+        p.names <- sample_data(p.family.gut)$Username
 
-for (name in p.names){
-  n<- dplyr::filter(u.df,old_name==name) %>% pull(new_name)
-  p.names[which(name == p.names)]<-n
-  
-}
-sample_data(p.family.gut)$Username <- p.names
+        for (name in p.names) {
+            n <- dplyr::filter(u.df, old_name == name) %>% pull(new_name)
+            p.names[which(name == p.names)] <- n
+        }
+        sample_data(p.family.gut)$Username <- p.names
 
-sink("junk.txt")
-ord <- ordinate(p.family.gut,method = "NMDS", distance = "bray")
-plot_ordination(p.family.gut,ord, color = "Condition", label = "Username")
+
+        ord <- ordinate(p.family.gut, method = "NMDS", distance = "bray")
+        plot_ordination(p.family.gut, ord, color = "Condition", label = "Username")
 sink()
-file.remove("junk.txt")
+
+
 
 ```
 
 The differences here are not strikingly obvious, but you can see a cluster among the baby samples. There is overlap, but it appears that the healthy people are generally in a separate space from the people who self-report some type of dysbiosis.
 
-What if we look just at the "healthy" people? In Figure \@ref(fig:plotCaseStudyHealthy) I unfortunately don't see any special clusters.
+What if we look just at the "healthy" people? In Figure @fig-plotCaseStudyHealthy I unfortunately don't see any special clusters.
 
-```{r plotCaseStudyHealthy, results = "hide", fig.cap="An overall look at clustering among just healthy people." }
-sink("junk2.txt")
+```{r}
+#| label: fig-plotCaseStudyHealthy
+#| fig-cap: "An overall look at clustering among just healthy people."
+
+
+sink("/dev/null")
 people.family.healthy.gut <- subset_samples(people.family, Condition == "Healthy" & Site=="gut")
 #sample_data(people.family.healthy.gut)$Username <- "m"
 ord <- ordinate(people.family.healthy.gut,method = "NMDS", distance = "bray")
@@ -49,12 +57,13 @@ df <- plot_ordination(people.family.healthy.gut,ord, color = "Condition", label 
   
 levels(df$Condition) <- c(levels(df$Condition),"Me")
 
+sink()
+
 # julie knowles
 ggplot(data = df %>% mutate(Condition=replace(Condition,Username=="jk","Me")) , aes(x=NMDS1,y=NMDS2, color = Condition, size = as.numeric(Condition))) + geom_point() +
   guides(size = FALSE)
 
 
-file.remove("junk2.txt")
 
 ```
 

@@ -6,18 +6,6 @@ That said, I was surprised to see our gut biomes were so similar. Here's how I d
 
 Remember that a gut microbiome varies *a lot* day-to-day, depending on whatever food we happened to eat, exposure to illness, geographic location, even time of year. To keep the variables as constant as possible, I'll compare two samples taken on the same day:
 
-```{r}
-#| label: fig-FatherSonLoad
-#| fig-cap: "A selection of case studies"
-#| echo: false
-
-
-source("../R/header.R")
-
-```
-
-
-
 
 ```{r, echo=FALSE,message=FALSE, warning=FALSE}
 
@@ -99,6 +87,7 @@ The list includes the familiar _Bacteroides plebeius_, the "seaweed-digesting" m
 
 and some that Dad has that I don't:
 ```{r}
+#| label: tab-moreUniqueDad
 
 kable(dad.only[1:10,] %>% select(1) / 10000, col.names = c("Dad (%)"), digits = 2)
 
