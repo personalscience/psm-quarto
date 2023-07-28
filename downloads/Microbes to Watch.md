@@ -51,15 +51,15 @@ The genus is also a useful tool for understanding the evolutionary relationships
 
 The genus is an important part of the biological classification system. It is a useful tool for grouping together organisms that share similar characteristics, and for understanding the evolutionary relationships between organisms.
 
-In the context of the human microbiome, the genus is a useful way to group together different types of bacteria. For example, the genus Lactobacillus contains many different species of bacteria that are found in the human gut. These bacteria play an important role in digestion and immune function.
+In the context of the human microbiome, the genus is a useful way to group together different types of bacteria. For example, the genus *Lactobacillus* contains many different species of bacteria that are found in the human gut. These bacteria play an important role in digestion and immune function.
 
 The genus is also a useful way to study the evolution of the human microbiome. By comparing the genomes of different species of bacteria in the same genus, we can learn about how these bacteria have evolved over time. This information can help us to understand how the human microbiome has changed in response to changes in our environment.
 
 The term "genus" may not make intuitive sense to somebody used to thinking of eukaryotes or other organisms that reproduce via gametes. This is because the concept of genus is based on the idea of shared characteristics, which is not always clear-cut in the case of prokaryotes.
 
-For example, the genus Escherichia contains many different species of bacteria that are very different from each other in terms of their appearance and their metabolism. However, they all share a common ancestor and they all have a similar DNA sequence. This is why they are all placed in the same genus.
+For example, the genus *Escherichia* contains many different species of bacteria that are very different from each other in terms of their appearance and their metabolism. However, they all share a common ancestor and they all have a similar DNA sequence. This is why they are all placed in the same genus.
 
-Another example is the genus Lactobacillus. This genus contains many different species of bacteria that are found in the human gut. They all have a similar appearance and they all ferment carbohydrates. However, they have different DNA sequences and they are not all closely related to each other. This is why some scientists believe that the genus Lactobacillus should be divided into several different genera.
+Another example is the genus *Lactobacillus*. This genus contains many different species of bacteria that are found in the human gut. They all have a similar appearance and they all ferment carbohydrates. However, they have different DNA sequences and they are not all closely related to each other. This is why some scientists believe that the genus Lactobacillus should be divided into several different genera.
 
 The concept of genus is also complicated by the fact that prokaryotes can reproduce asexually. This means that they do not produce gametes, and they do not have a sexual cycle. As a result, it can be difficult to determine how closely related two species of prokaryotes are.
 
@@ -68,7 +68,7 @@ Despite these challenges, the concept of genus is still useful for classifying p
 You're likely to hear most about the genus level because it's the most detail that cheap sequencing technologies can get right -- most of the time. 
 
 
-_Bifidobacterium_ is a key component of virtually all popular probiotic supplements, partly because it is so easy to manufacture, but also due to its proven association with sleep and other aspects of health. A six month picture of my levels shows some dramatic ups and downs (See Figure \@ref(fig:summarPlotBifido)).
+_Bifidobacterium_ is a key component of virtually all popular probiotic supplements, partly because it is so easy to manufacture, but also due to its proven association with sleep and other aspects of health. A six month picture of my levels shows some dramatic ups and downs (See #experimentSleep).
 
 
 ## Species

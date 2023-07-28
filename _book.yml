@@ -38,6 +38,7 @@ book:
         # - "Experiments/microbes_to_watch.qmd"
         - "downloads/Microbes to Watch.md"
         - Experiments.qmd
+        - myTests.qmd
         - CaseStudies.qmd
         - "downloads/DIY Microbiome Testing.md"
     - part: "Next Steps"

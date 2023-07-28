@@ -105,6 +105,11 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 {{< include Experiments/experiment-sleep.qmd >}}
 
 
+
+
+{{< include Experiments/experiment-dentist.qmd >}}
+
+
 {{< include Experiments/experiment-sniffle.qmd >}}
 
 {{< include Experiments/experiment-food.qmd >}}
@@ -112,49 +117,6 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 
 {{< include Experiments/experiment-methods.qmd >}}
 
-<!---
-
-```{r child="Experiments/experiment-food.Rmd"} -->
-
-<!-- ```
-
-<!-- ```{r child="Experiments/experiment-dietChange.Rmd"} -->
-
-<!-- ``` -->
-
-
-
-<!-- #How does collection method influence the result? -->
-
-<!-- ``` -->
-
-<!-- ```{r child="Experiments/experiment-sites/microbesInSkin.Rmd"} -->
-
-<!-- # Microbes in the skin -->
-
-<!-- ``` -->
-
-{{< include Experiments/microbesInMouth.qmd >}}
-
-
-{{< include Experiments/experiment-dentist.qmd >}}
-
-
-<!-- ```{r child="Experiments/microbesInMouth.qmd"} -->
-
-<!-- # Microbes in the mouth -->
-
-<!-- ``` -->
-
-<!-- ```{r child="Experiments/experiment-sites/microbesInNose.Rmd"} -->
-
-<!-- # Microbes in the nose -->
-
-<!-- ``` -->
-
-<!-- ```{r child="Experiments/experiment-other.Rmd"} -->
-
-<!-- ``` -->
 
 
 
