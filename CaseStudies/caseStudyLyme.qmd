@@ -23,9 +23,11 @@ plot_bar(subset_samples(spiro, SSR %in% spiro.ssr), x = "Date") + ggtitle("Sampl
 
 ```
 
-Let's do an ordination. How do lyme patients resemble one another? \@ref(fig:caseStudyLymeOrdination1)
+Let's do an ordination. How do lyme patients resemble one another? @fig-caseStudyLymeOrdination1
 
-```{r caseStudyLymeOrdination1, fig.cap = "Clusters of lyme patients"}
+```{r}
+#| label: fig-caseStudyLymeOrdination1
+#| fig-cap: "Clusters of lyme patients"
 lyme.ps <- subset_samples(people.family, Condition == "Lyme" & Site == "gut")
 lyme.ssr <- c(15811,16464,17664,20272,35818,36017,54976,84870,11028,11330)
 
@@ -41,13 +43,13 @@ sample_data(lyme.ps)$Label <- newLabel
 #sample_data(lyme.ps)$Label <- sub("spare","lyme",oldLabel)
 
 
-sink("junk.txt")
-lyme.ord <- ordinate(lyme.ps, method = "NMDS", distance = "bray")
+sink("/dev/null")
+lyme.ord <- ordinate(lyme.ps, method = "PCoA", distance = "bray")
 lyme.df <- plot_ordination(lyme.ps,lyme.ord,justDF = TRUE)
 sink()
 
 
-ggplot(data=lyme.df,aes(x=NMDS1,y=NMDS2, color = Username)) + geom_point() +
+ggplot(data=lyme.df,aes(x=Axis.1,y=Axis.2, color = Username)) + geom_point() +
 theme(text=element_text(size=15), axis.text = element_text(size=4),
       legend.position = "right") + geom_point(size=3) +
     geom_text(aes(label=Label),size = 4, hjust = "center", vjust = "top" ) +

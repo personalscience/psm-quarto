@@ -175,7 +175,7 @@ In the real world, the type and variety of microbes in the body are constantly c
 
 The key is to take multiple samples and not rely on a single day's measure. If you take many samples over time, you'll find that the moving average is much more stable, and a better overall indicator of diversity.
 
-There are other measures of diversity as well. The *Shannon Index* borrows from Information Theory to ask how much unique information is contained in a given sample. A radio signal that broadcasts random static, for example, would have a lower Shannon number than one for a music concert. Similarly, a microbiome with a boring makeup -- all the same species, for example -- would have a lower Shannon number than one containing a rich abundance of many different types of microbes. In practice, *Shannon* and *Inverse Simpson* tend to track one another reasonably well, a clue that they are getting at a similar idea. (@fig-compareDiversity))
+There are other measures of diversity as well. The *Shannon Index* borrows from Information Theory to ask how much unique information is contained in a given sample. A radio signal that broadcasts random static, for example, would have a lower Shannon number than one for a music concert. Similarly, a microbiome with a boring makeup -- all the same species, for example -- would have a lower Shannon number than one containing a rich abundance of many different types of microbes. In practice, *Shannon* and *Inverse Simpson* tend to track one another reasonably well, a clue that they are getting at a similar idea. (@fig-compareDiversity)
 
 ```{r}
 #| label: fig-compareDiversity

@@ -83,11 +83,11 @@ kable(me.only[1:10,] %>% select(1) / 10000, col.names = c("Me (%)"), digits = 2)
 kable(me.only.species[1:10,] %>% select(1) / 10000, col.names = c("Me Species(%)"), digits = 2)
 ```
 
-The list includes the familiar _Bacteroides plebeius_, the "seaweed-digesting" microbe which we've discussed previous. Dad never lived in Asia, so this is not a surprise.
+The list includes the familiar _Bacteroides plebeius_, the "seaweed-digesting" microbe which we've discussed previously. Dad never lived in Asia, so this is not a surprise.
 
 and some that Dad has that I don't:
 ```{r}
-#| label: tab-moreUniqueDad
+#| label: tbl-moreUniqueDad
 
 kable(dad.only[1:10,] %>% select(1) / 10000, col.names = c("Dad (%)"), digits = 2)
 
@@ -96,11 +96,12 @@ kable(dad.only.species[1:10,] %>% select(1) / 10000, col.names = c("Dad Species 
 
 That _Thalassospira_ is a mystery. A quick literature search reveals nothing, but it's abundant enough to make me wonder if there's something special about Dad's lifestyle that would harbor it. Note that it's not visible on the species level, an indicator that nothing is known below the genus.
 
-I tried to esimate, roughly, how common it is among the other samples I've seen: It ranges between zero and ```r range(otu_table(people.norm)["Thalassospira"])[2]/10000```
+I tried to esimate, roughly, how common it is among the other samples I've seen: It ranges between zero and ```r range(phyloseq::otu_table(psmr::people.norm)["Thalassospira"])[2]/10000```
 
 The vast majority of samples have none, but it's not unknown either:
 
 ```{r}
+#| label: fig-dadMeThalass
 qplot(as.vector(otu_table(people.norm)["Thalassospira"])/10000, ylab = "Number of Samples", xlab = "% Abundance", main = "Frequency of Thalassospira")
 ```
 
