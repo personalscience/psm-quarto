@@ -1,4 +1,33 @@
+## Parkinsons Disease
 
+See Jun 2022 [Review: Gut Microbiota: A Novel Therapeutic Target for Parkinson’s Disease](https://www.frontiersin.org/articles/10.3389/fimmu.2022.937555/full#B56)
+
+Parkinson's disease (PD) is a neurodegenerative disorder that is the second-most common after Alzheimer's disease[1]. Here is a general overview of PD and its known demographic factors:
+
+1. Age of Detection:
+   - Most people diagnosed with PD are age 60 years or older[1].
+   - However, an estimated 5 to 10 percent of people with PD are diagnosed before the age of 50[1].
+   - The overall incidence of PD increases with age[3].
+   - The incidence of PD in persons ages 65 and older ranges from 108 to 212 per 100,000[5].
+
+2. Sex:
+   - Men are 1.5 times more likely to have Parkinson's disease than women[2].
+   - The male-to-female ratio of PD may change with age, suggesting that the etiology of PD may vary across different age groups[6].
+
+3. Geography:
+   - The prevalence and incidence of PD can vary by geographic location[4].
+   - A study in North America found that the age-sex-adjusted incidence of PD ranged from 108 to 212 per 100,000 among persons ages 65 and older[5].
+   - Geographic and ethnic variations in PD have been observed, but further research is needed to understand the underlying factors[4].
+
+It's important to note that these demographic factors are based on available research and may not capture the full complexity of PD. The understanding of PD is constantly evolving, and further research is needed to uncover additional factors that may contribute to the development and progression of the disease.
+
+Citations:
+[1] https://www.ninds.nih.gov/current-research/focus-disorders/focus-parkinsons-disease-research/parkinsons-disease-challenges-progress-and-promise
+[2] https://www.parkinson.org/understanding-parkinsons/statistics
+[3] https://academic.oup.com/aje/article/157/11/1015/151509
+[4] https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2865395/
+[5] https://www.nature.com/articles/s41531-022-00410-y
+[6] https://jnnp.bmj.com/content/87/9/952
 
 ## Skin Microbiome and Attractiveness to Mosquitoes
 
@@ -34,6 +63,8 @@ https://pubmed.ncbi.nlm.nih.gov/30150716/
 
 A Chinese study that found microbiome patterns that predict health in one province don't work in another.
 
+@he_regional_2018
+
 He Y, Wu W, Zheng HM, Li P, McDonald D, Sheng HF, Chen MX, Chen ZH, Ji GY, Zheng ZD, Mujagond P, Chen XJ, Rong ZH, Chen P, Lyu LY, Wang X, Wu CB, Yu N, Xu YJ, Yin J, Raes J, Knight R, Ma WJ, Zhou HW. Regional variation limits applications of healthy gut microbiome reference ranges and disease models. Nat Med. 2018 Oct;24(10):1532-1535. doi: 10.1038/s41591-018-0164-x. Epub 2018 Aug 27. Erratum in: Nat Med. 2018 Sep 24;: PMID: 30150716.
 
 ***
@@ -44,22 +75,8 @@ https://www.nature.com/articles/s42255-021-00348-0
 see [evernote](https://www.evernote.com/shard/s7/nl/748304/abae11d4-6790-43ab-9776-faf611a24f04?title=ISB:%20Gut%20Microbiome%20Pattern%20Reflects%20Healthy%20Aging%20and%20Predicts%20Extended%20Survival%20in%20Humans)
 
 
-@article{wilmanski_gut_2021,
-	title = {Gut microbiome pattern reflects healthy ageing and predicts survival in humans},
-	volume = {3},
-	issn = {2522-5812},
-	url = {https://www.nature.com/articles/s42255-021-00348-0},
-	doi = {10.1038/s42255-021-00348-0},
-	language = {en},
-	number = {2},
-	urldate = {2023-04-06},
-	journal = {Nature Metabolism},
-	author = {Wilmanski, Tomasz and Diener, Christian and Rappaport, Noa and Patwardhan, Sushmita and Wiedrick, Jack and Lapidus, Jodi and Earls, John C. and Zimmer, Anat and Glusman, Gustavo and Robinson, Max and Yurkovich, James T. and Kado, Deborah M. and Cauley, Jane A. and Zmuda, Joseph and Lane, Nancy E. and Magis, Andrew T. and Lovejoy, Jennifer C. and Hood, Leroy and Gibbons, Sean M. and Orwoll, Eric S. and Price, Nathan D.},
-	month = feb,
-	year = {2021},
-	keywords = {longevity, microbiome},
-	pages = {274--286}
-}
+@wilmanski_gut_2021
+
 
 
 ## Mapping the Capacity of a Single Subject’s Microbiome to Metabolize Hundreds of Drugs
@@ -69,23 +86,6 @@ see [evernote](https://www.evernote.com/shard/s7/nl/748304/abae11d4-6790-43ab-97
 
 https://www.cell.com/cell/fulltext/S0092-8674(20)30563-8#secsectitle0035
 
-
-
-
-@article{javdan_personalized_2020,
-	title = {Personalized {Mapping} of {Drug} {Metabolism} by the {Human} {Gut} {Microbiome}},
-	volume = {181},
-	issn = {00928674},
-	url = {https://linkinghub.elsevier.com/retrieve/pii/S0092867420305638},
-	doi = {10.1016/j.cell.2020.05.001},
-	language = {en},
-	number = {7},
-	urldate = {2023-04-06},
-	journal = {Cell},
-	author = {Javdan, Bahar and Lopez, Jaime G. and Chankhamjon, Pranatchareeya and Lee, Ying-Chiang J. and Hull, Raphaella and Wu, Qihao and Wang, Xiaojuan and Chatterjee, Seema and Donia, Mohamed S.},
-	month = jun,
-	year = {2020},
-	pages = {1661--1679.e22}
-}
+@javdan_personalized_2020
 
 

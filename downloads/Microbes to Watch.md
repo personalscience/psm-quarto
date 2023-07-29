@@ -68,7 +68,7 @@ Despite these challenges, the concept of genus is still useful for classifying p
 You're likely to hear most about the genus level because it's the most detail that cheap sequencing technologies can get right -- most of the time. 
 
 
-_Bifidobacterium_ is a key component of virtually all popular probiotic supplements, partly because it is so easy to manufacture, but also due to its proven association with sleep and other aspects of health. A six month picture of my levels shows some dramatic ups and downs (See #experimentSleep).
+_Bifidobacterium_ is a key component of virtually all popular probiotic supplements, partly because it is so easy to manufacture, but also due to its proven association with sleep and other aspects of health. A six month picture of my levels shows some dramatic ups and downs (See [Hacking Sleep](#sec-experimentSleep).
 
 
 ## Species

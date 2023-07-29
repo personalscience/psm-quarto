@@ -48,6 +48,7 @@ book:
         - Next/references-books.qmd
         - Next/references-academic.qmd
         - references.qmd
+    - Appendix.qmd
 
 bibliography: 
   - psm-refs.bib
