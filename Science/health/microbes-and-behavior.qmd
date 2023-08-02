@@ -4,9 +4,12 @@ There are surprising links between microbes and behavior.
 
 _Toxoplasma Gondii_ is a tiny microbe that, for some reason, only likes to reproduce from within the gut of a cat. It can be found in almost all warm-blooded mammals, including humans — about 30% of us, according to some estimates, and that's after a century of obsession with hygiene that has wiped out countless other tiny inhabitants of the body.
 
-_T. Gondii_ seem harmless because its hosts appear to show no differences before or after "infection" except in one creature: the rat. In this classic experiment^[@vyas_behavioral_2007], rodens that were infected with _Toxoplasma gondii_ were studied with special dyes that can show how the infection spreads, first in the gut and then to the brain. 
+_T. Gondii_ seem harmless because its hosts appear to show no differences before or after "infection" except in one creature: the rat. In this classic experiment^[@vyas_behavioral_2007], rodents that were infected with _Toxoplasma gondii_ were studied with special dyes that can show how the infection spreads, first in the gut and then to the brain. 
 
-```{r echo=FALSE, fig.cap = "From Vyas 2007"}
+```{r}
+#| label: fig-toxo-rats
+#| echo: false
+#| fig-cap: "Twenty-eight days after infection, the rat brain is permanently altered [@vyas_behavioral_2007]"
 
 knitr::include_graphics(file.path(here::here(),"Science","assets/scienceRatsTaxoplasmaF1large.jpg"))
 
@@ -33,17 +36,17 @@ In general, sexually transmitted diseases are especially likely to have behavior
 A well-done 2019 study (@valles-colomer_neuroactive_2019) found that people suffering from depression have significantly lower levels of two groups of bacteria, *Dialister* and *Coprococcus*, possibly due to a potential ability of the gut microbiome to synthesize 3,4-dihydroxyphenylacetic acid, a breakdown product of the neurotransmitter dopamine.
 
 
-There are many other examples of microbes that appear to affect the brain.
+There are many other examples of microbes that appear to affect the brain:
 
-5-HTP is an intermediate molecule between tryptophan and serotonin.  It is produced by Candida, Streptococcus, Escherichia, and Enterococcus.  
+* 5-HTP is an intermediate molecule between tryptophan and serotonin.  It is produced by Candida, Streptococcus, Escherichia, and Enterococcus.  
 
-Bacillus and Serratia make dopamine
+* Bacillus and Serratia make dopamine
 
-Escherichia, Bacillus, Saccharomyces make noradrenaline
+* Escherichia, Bacillus, Saccharomyces make noradrenaline
 
-Lactobacillus can produce acetylcholine
+* Lactobacillus can produce acetylcholine
 
-GABA can be produced by Lactobacillus and Bifidobacterium.
+* GABA can be produced by Lactobacillus and Bifidobacterium.
 
 Your gut contains 100 million neurons^[@courage_cultured_2019 p.46 ] -- about the same as an entire mouse, incidentally --
 
@@ -58,8 +61,7 @@ _Sutterella_ may have implications for autism, causes tics ?
 _Bifidobacterium infantis_:  see Sudo, Chida for gnobiotic mice that it prevents from becoming stressed.
 
 
-Mark Lyte and his colleagues, a microbiology team from the Minneapolis Medical Research Foundation, studied the effect of infecting mice with
-_Campylobacter_, one of the bacteria implicated in the Walkerton epidemic. The dose of bacteria was high enough to be detected in the intestine, but not so high that the mice developed overt illness. You probably won’t be surprised to learn that the campylobacter-infected mice exhibited more anxiety when navigating a maze than the control mice.
+Mark Lyte and his colleagues, a microbiology team from the Minneapolis Medical Research Foundation, studied the effect of infecting mice with _Campylobacter_, one of the bacteria implicated in the Walkerton epidemic. The dose of bacteria was high enough to be detected in the intestine, but not so high that the mice developed overt illness. You probably won’t be surprised to learn that the campylobacter-infected mice exhibited more anxiety when navigating a maze than the control mice.
 
 
 _Lactobacillus rhamnosus_ is lower in pups born to pregnant mothers under stress. Intrigingly, this species is linked to levels of GABA, an important neurotransmitter targeted by anti-anxiety drugs like Valium and Xanax.^[See a detailed discussion in the New York Times: https://www.nytimes.com/2015/06/28/magazine/can-the-bacteria-in-your-gut-explain-your-mood.html] What's more, in mice the action of these microbes seems modulated by the vagus nerve -- mice who have their vagus nerve removed seem to be unaffected by GABA.^[@bravo_ingestion_2011]

@@ -1,6 +1,6 @@
 Living microbes are found everywhere on earth, often in surprising places. This section looks at some examples of how ubiquitous and hardy they can be, both in nature and on our bodies. We'll also discuss the technologies used to study the human microbiome.
 
-# Microbes everywhere
+# Microbes Everywhere
 
 The most important parts of our world are invisible. We can't see air, but we can't live without it. Similarly, our bodies are literally bathed in living, eating, reproducing lifeforms that we can't see but that have profound effects on all that we do.
 
@@ -25,10 +25,10 @@ Each of these has its own characteristic body type, means of reproduction, ways 
 Let's look next at some of these environments and see the odd places where microbes have been found.
 
 
-{{< include microbesAboveAndBelow.qmd >}}
+{{< include "/Science/microbesAboveAndBelow.qmd" >}}
 
 
 
-{{< include microbesAroundYou.qmd >}}
+{{< include /Science/microbesAroundYou.qmd >}}
 
 

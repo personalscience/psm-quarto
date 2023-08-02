@@ -26,6 +26,14 @@ def main(notebook_name):
         print(f"Error: Directory not found: {save_path}")
         sys.exit(1)
 
+
+    # Convert all .md files to .qmd
+    for filename in os.listdir(save_path):
+        base_file, ext = os.path.splitext(filename)
+        if ext == ".md":
+            os.rename(os.path.join(save_path, filename), os.path.join(save_path, base_file + ".qmd"))
+
+
     print(f"Output written to directory: {save_path}")
 
 

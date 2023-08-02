@@ -20,16 +20,9 @@ _freeze/
 *.zip
 
 # Ignore all caches
-/Experiments_cache
-/Experiments_files
-junk.txt
-Science/microbes_in_you_cache/
-Science/microbes_in_you_files/
-Science/microbesEverywhere_cache/
-methods_cache/
-CaseStudies_files/
-CaseStudies_cache/
-CaseStudies/caseStudyHealthy_files
+*_cache/
+*_files/
 
-myTests_cache/
-myTests_files/
+junk.txt
+
+

@@ -56,7 +56,7 @@ The key is to take multiple samples and not rely on a single day's measure. If y
 There are other measures of diversity as well. The *Shannon Index* borrows from Information Theory to ask how much unique information is contained in a given sample. A radio signal that broadcasts random static, for example, would have a lower Shannon number than one for a music concert. Similarly, a microbiome with a boring makeup -- all the same species, for example -- would have a lower Shannon number than one containing a rich abundance of many different types of microbes. In practice, *Shannon* and *Inverse Simpson* tend to track one another reasonably well, a clue that they are getting at a similar idea. (Figure \@ref(fig:compareDiversity))
 
 ```{r compareDiversity, fig.cap = "Comparing two types of diversity."}
-source("R/header.R")
+source(file.path(here::here(),"R/header.R"))
 plot_richness(subset_samples(gut.family.norm, Date > "2017-07-15" & Date< "2017-08-15" ), measures=c("InvSimpson","Shannon"), nrow=2, x = "Date") +
   scale_x_date(date_labels = "%b-%d", date_breaks = "1 week") +
   geom_smooth(method = "loess") + 

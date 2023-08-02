@@ -1,13 +1,9 @@
+---
+title: "Microbes and Health"
+---
 
 
-```{r child="health/microbes-and-hygiene.qmd"}
+{{< include "/Science/health/microbes-and-hygiene.qmd" >}}
 
-```
+{{< include "/Science/health/microbes-and-behavior.qmd" >}}
 
-```{r child="health/healthDiversity.qmd"}
-
-```
-
-```{r child="health/microbes-and-behavior.qmd"}
-
-```

@@ -2,14 +2,7 @@
 
 
 
-
-
-```{r child="Science/intro-to-biology.qmd"}
-
-```
-
-
-
+{{< include "downloads/Intro to Biology.qmd" >}}
 
 
 
