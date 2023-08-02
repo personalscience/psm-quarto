@@ -1,5 +1,7 @@
 
-### Hygiene {#microbesHygiene}
+
+
+## Hygiene {#microbesHygiene}
 
 THIS CHAPTER IS STILL IN DRAFT
 
@@ -46,6 +48,7 @@ A widely publicized 2017 study claimed that one of the most deadly microbial res
 **Microbes and cooking**
 
 Few microbes that inhabit human bodies are able to survive long at temperatures over 165 degrees (F). 
+
 
 
 

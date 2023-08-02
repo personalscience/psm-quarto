@@ -3,7 +3,15 @@ title: "Microbes and Health"
 ---
 
 
-{{< include "/Science/health/microbes-and-hygiene.qmd" >}}
+{{< include "/downloads/Microbes and Allergies.qmd" >}}
+
+{{< include "/downloads/Microbiome and Obesity.qmd" >}}
+
+{{< include "/downloads/Microbiome and Hygiene.qmd" >}}
+
+{{< include "/downloads/Microbiome and Cancer.qmd" >}}
+
+{{< include "/downloads/Microbes and Other Diseases.qmd" >}}
 
 {{< include "/Science/health/microbes-and-behavior.qmd" >}}
 
