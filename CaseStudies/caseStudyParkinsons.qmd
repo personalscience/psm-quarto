@@ -12,10 +12,11 @@ Although there is some evidence for a genetic component^[Check out your [LRKK2](
 
 Is this observable in our samples?
 
-"Patrick" is a confirmed Parkinson's patient who sent me his microbiome test results.  Let's look first at the Genus overall picture:
+"Patrick" is a confirmed Parkinson's patient who sent me his microbiome test results.  Let's look first at the genus overall picture @tbl-caseStudyParkinsonsLoad
 
 ```{r}
-#| label: tab-caseStudyParkinsonsLoad
+#| label: tbl-caseStudyParkinsonsLoad
+#| fig-cap: Microbes (genus-level) in a Parkinsons patient.
 
 park.genus <- subset_samples(people.norm,Username=="Parkinsons1")
 park.genus <- prune_taxa(taxa_sums(park.genus)>0,park.genus)
@@ -23,7 +24,7 @@ kable(mhg_abundance(park.genus, top=10)/10000,digits=2, col.names = c("%"))
 ```
 
 
-How different is Patrick's Akkermansia compared to everyone else?
+How different is Patrick's Akkermansia compared to everyone else? @fig-densityPlotPark
 
 ```{r}
 #| label: fig-densityPlotPark

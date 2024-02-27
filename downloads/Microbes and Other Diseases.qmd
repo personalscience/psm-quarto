@@ -15,7 +15,7 @@ Parkinson's disease (PD) is a neurodegenerative disorder that is the second-most
    - The incidence of PD in persons ages 65 and older ranges from 108 to 212 per 100,000^[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2865395/].
 
 2. Sex:
-   - Men are 1.5 times more likely to have Parkinson's disease than women[.
+   - Men are 1.5 times more likely to have Parkinson's disease than women.
    - The male-to-female ratio of PD may change with age, suggesting that the etiology of PD may vary across different age groups^[https://jnnp.bmj.com/content/87/9/952].
 
 3. Geography:
@@ -25,7 +25,7 @@ Parkinson's disease (PD) is a neurodegenerative disorder that is the second-most
 
 It's important to note that these demographic factors are based on available research and may not capture the full complexity of PD. The understanding of PD is constantly evolving, and further research is needed to uncover additional factors that may contribute to the development and progression of the disease.
 
-Later I'll describe my own Personal Science observations about the link with Parkinsons. ([@sec-caseStudyParkinsons])
+Later I'll describe my own Personal Science observations about the [link with Parkinsons](#sec-caseStudyParkinsons)
 
 ***
 

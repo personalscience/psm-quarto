@@ -1,4 +1,4 @@
-## Experiment: Gut Cleanse* {#experimentCleanse}
+## Experiment: Gut Cleanse {#experimentCleanse}
 
 Microbiome experiments are complicated by the difficulty of holding everything constant. Even if you are careful with precise amounts of the same food and exercise, you are still dealing with your existing microbiome with all its uncertainties, making it difficult to tell precisely what caused a particular change. What if you could wipe the slate clean; start over with a completely new biome and just track *that,* along with precisely what you eat afterwards? What could you learn?
 
@@ -124,9 +124,9 @@ data.frame(sample_data(cleanse.family.norm)[,c("Date")],
   theme(legend.position = "none", axis.title.x = element_blank()) 
 ```
 
-**A couple of weird microbers, at small amounts, made a brief appearance.** I was intrigued by five new taxa that showed up just once, the day after the cleanse, and then disappeared. Maybe I found some that ordinarily get lost in the noise of the microbiome and only show up when the rest of the forest has been cleared. These are some hardy guys and I’m glad I know their names and can watch for them again: *Abiotrophia, Bacillus, Catonella, Christensenella, Parvimonas*.
+**A couple of weird microbes, at small amounts, made a brief appearance.** I was intrigued by five new taxa that showed up just once, the day after the cleanse, and then disappeared. Maybe I found some that ordinarily get lost in the noise of the microbiome and only show up when the rest of the forest has been cleared. These are some hardy guys and I’m glad I know their names and can watch for them again: *Abiotrophia, Bacillus, Catonella, Christensenella, Parvimonas*.
 
-**It’s pretty hard to make a significant change.** These days a little googling will find plenty of web sites, books, diets, and supplements that claim to “fix” or “change” your microbiome. I’m a healthy, reasonably fit adult, so I’m not as motivated as somebody with a specific health problem, but I thought simply popping probiotics and eating a variety of new and fermented foods would have a big effect. Nope. There are exceptions – new microbes will sprout when I drink [homemade Kefir](#experimentKefir), or [travel to China](#chinaTravel) but it's much harder than you'd think.
+**It’s pretty hard to make a significant change.** These days a little googling will find plenty of web sites, books, diets, and supplements that claim to “fix” or “change” your microbiome. I’m a healthy, reasonably fit adult, so I’m not as motivated as somebody with a specific health problem, but I thought simply popping probiotics and eating a variety of new and fermented foods would have a big effect. Nope. There are exceptions – new microbes will sprout when I drink [homemade Kefir](#sec-experimentKefir), or [travel to China](#sec-chinaTravel) but it's much harder than you'd think.
 
 Of course, I'm not the first to study microbiome changes after a colon cleanse. A 2015 European study found increases in _Dorea_, which interestingly I found as well (Figure @fig-coloncleanseDorea) .^[Read a detailed description of what microbes are noted in a bowel cleansing: @jalanka_effects_2015 ]
  

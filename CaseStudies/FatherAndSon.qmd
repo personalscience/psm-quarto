@@ -86,6 +86,7 @@ kable(me.only.species[1:10,] %>% select(1) / 10000, col.names = c("Me Species(%)
 The list includes the familiar _Bacteroides plebeius_, the "seaweed-digesting" microbe which we've discussed previously. Dad never lived in Asia, so this is not a surprise.
 
 and some that Dad has that I don't:
+
 ```{r}
 #| label: tbl-moreUniqueDad
 
@@ -102,6 +103,7 @@ The vast majority of samples have none, but it's not unknown either:
 
 ```{r}
 #| label: fig-dadMeThalass
+#| fig-cap: How common is Thalassospira? 
 qplot(as.vector(otu_table(people.norm)["Thalassospira"])/10000, ylab = "Number of Samples", xlab = "% Abundance", main = "Frequency of Thalassospira")
 ```
 

@@ -5,7 +5,12 @@ Food affects the microbiome, but can we tell more about which types of food and 
 
 I carefully tracked precisely which foods I ate and computed the totals for the main macronutrients. How do the abundance levels of a typical microbe change in response?
 
-```{r experimentfoodComputeNutrient, fig.cap="See the interactive version of this chart: https://personalscience.shinyapps.io/shinyactinodb/"}
+
+
+```{r}
+#| label: fig-experimentfoodComputeNutrient
+#| fig-cap: "See the interactive version of this chart: https://personalscience.shinyapps.io/shinyactinodb/"
+#| echo: false
 d <- tbl_df(mhg_taxa(gut.norm, "Bifidobacterium") %>% filter(date > "2017-06-01" & date < "2017-06-30"))
 names(d) <- c("Date","Abundance")
 
@@ -40,7 +45,10 @@ You can look at all my data here:
 I occasionally eat ground flax seed, a few tablespoons mixed into other foods. How does it affect my microbiome compared to the days when I _don't_ eat it?
 
 
-```{r experimentFlaxSetup, fig.cap = "Red dots mark days when I add flax."}
+```{r}
+#| label: fig-experimentFlaxSetup
+#| fig-cap:  "Red dots mark days when I add flax."
+#| echo: false
 
 flax_day <- mhg_food_days(rikfood,"flax")
 #flax_day <- mhg_food_days(rikfood,"beer|wine|ale|whiskey|pinot|chardonnay|cabernet|merlot|leinenkugels|pilsner|ipa")

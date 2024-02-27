@@ -5,7 +5,7 @@ While technically the microbiome refers to all microbes in and around us, most o
 
 Viruses present several problems for scientists. They’re super-tiny for one: you can often fit hundreds of virus-sized particles inside a single bacterium. They’re not always made of DNA, and even when they are, they don’t reproduce on their own.The controversy about whether they should even be considered “alive” is partly due to this lack of reproduction ability, but also because many of them appear to be quite simple: just a sequence of proteins. 
 
-![Viruses are tiny compared to bacteria. Image:[marneechua](https://www.slideshare.net/marneechua/marine-virus-presentation)](https://onedrive.live.com/embed?resid=8BC6084B92FFA451%21684578&authkey=%21AFAmVTZYYX2UTSI&width=728&height=546)
+![Viruses are tiny compared to bacteria. Image:[marneechua](https://www.slideshare.net/marneechua/marine-virus-presentation)](https://onedrive.live.com/embed?resid=8BC6084B92FFA451%21684417&authkey=%21AP_NrmYjedZERO4&width=728&height=546?no.jpg)
 
 These characteristics wreak havoc with the traditional scientists’ toolkit for dealing with small objects: they’re too small to study optically without powerful equipment, and their lack of a reproductive mechanism means you can’t easily amplify their quantity, and their RNA components are unstable and difficult to work with. It’s so much easier to deal with bacteria.
 
@@ -13,7 +13,7 @@ But thanks to some ingenious and difficult work, a few things are clear.
 
 Viruses, like bacteria, are everywhere. In fact, just about every human on earth is infected, right now, with dozens of them.^[@virgin_virome_2014]
 
-!["You already have an infection with these viruses. [Herbert Virgin at 2015 NIH Dyer Lecture]"(https://www.youtube.com/watch?v=TRVxTBuvChU)](https://onedrive.live.com/embed?resid=8BC6084B92FFA451%21684579&authkey=%21AAk5khVkiDDxU74&width=772&height=345)
+![You already have an infection with these viruses. [Herbert Virgin at 2015 NIH Dyer Lecture](https://www.youtube.com/watch?v=TRVxTBuvChU)](https://onedrive.live.com/embed?resid=8BC6084B92FFA451%21684579&authkey=%21AAk5khVkiDDxU74&width=772&height=345)
 
 
 Unlike bacteria, viruses are so tiny that they can slip through cracks in the body that would normally stop bigger pathogens. The placenta, for example, can pass viruses like rubella (German Measles), cytomegalovirus, HIV, and Zika. 
@@ -31,6 +31,7 @@ This is true all over evolution and it may explain why some studies are frustrat
 Much popular microbiome advice suggests that *more* diversity is better, and intuitively it makes sense that a body with a variety of different microbes has a more robust defense system than somebody with a more restricted microbiome. Whether this is always true among bacteria is open for debate — I for one think it matters a lot *which* microbes you have, rather than the variety alone — but in the virome there is evidence that *more* diversity causes more problems.
 
 ![Increased diversity is not always good.](https://onedrive.live.com/embed?resid=8BC6084B92FFA451%21684577&authkey=%21AGEQD3mIRl0LXb4&width=657&height=490)
+
 
 IBD and Crohn’s patients who were carefully studied alongside healthy controls appear to have a wider variety of viruses in their systems. It’s too early to say whether this has any implications for treatment, but it does point out that the story is more complicated than we’d hope.
 

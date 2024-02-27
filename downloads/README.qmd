@@ -1,4 +1,9 @@
 
+The current version is stored in psm-quarto. Use VS Code to generate it from the "Run and Debug" menu and "Python: PSM Process"
+
+
+
+## Old
 This is the (draft) Quarto edition of the  Personal Science Guide to the Microbiome, a detailed summary of how to use the Personal Science site to learn about the microbiome.
 
 It is automatically generated with

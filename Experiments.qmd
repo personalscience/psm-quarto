@@ -74,7 +74,7 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 
 {{< include Experiments/experiment-kombucha.qmd >}}
 
-
+{{< include Experiments/experiment-travelChina.qmd >}}
 
 <!-- ```{r child="Experiments/experiment-travelMexico.Rmd"} -->
 

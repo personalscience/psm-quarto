@@ -1,5 +1,19 @@
 
 
+## Diversity and Immunity
+
+
+## Statistically Modeling for Health Status
+Zhu, J., Xie, H., Yang, Z. et al. Statistical modeling of gut microbiota for personalized health status monitoring. Microbiome 11, 184 (2023). https://doi.org/10.1186/s40168-023-01614-x
+
+[Statistical modeling of gut microbiota for personalized health status monitoring](https://microbiomejournal.biomedcentral.com/articles/10.1186/s40168-023-01614-x)
+
+> We systematically developed a statistical monitoring diagram for personalized health status prediction and analysis. Our framework comprises three elements: (1) a statistical monitoring model was established, the health index was constructed, and the health boundary was defined; (2) healthy patterns were identified among healthy people and analyzed using contrast learning; (3) the contribution of each bacterium to the health index of the diseased population was analyzed. Furthermore, we investigated disease proximity using the contribution spectrum and discovered multiple multi-disease-related targets.
+
+via [Ken Lassessen](https://www.facebook.com/groups/TheGutClubStoolTestDiscussionGroup/posts/6633282866800134/)
+
+
+
 
 ## Skin Microbiome and Attractiveness to Mosquitoes
 
