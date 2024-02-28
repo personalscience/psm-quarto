@@ -1,4 +1,26 @@
 
+[Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease](https://www.biorxiv.org/content/10.1101/2024.02.01.577565v1)
+
+Mentions uBiome's Melissa Agnello for processing some samples through uBiome's lab.
+
+Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease
+Xin Zhou, Xiaotao Shen, Jethro S. Johnson, Daniel J. Spakowicz, Melissa Agnello, Wenyu Zhou, Monica Avina, Alexander Honkala, Faye Chleilat, Shirley Jingyi Chen, Kexin Cha, Shana Leopold, Chenchen Zhu, Lei Chen, Lin Lyu, Daniel Hornburg, Si Wu, Xinyue Zhang, Chao Jiang, Liuyiqi Jiang, Lihua Jiang, Ruiqi Jian, Andrew W. Brooks, Meng Wang, Kévin Contrepois, Peng Gao, Sophia Miryam Schüssler-Fiorenza Rose, Thi Dong Binh Tran, Hoan Nguyen, Alessandra Celli, Bo-Young Hong, Eddy J. Bautista, Yair Dorsett, Paula Kavathas, Yanjiao Zhou, Erica Sodergren, George M. Weinstock, Michael P. Snyder
+bioRxiv 2024.02.01.577565; doi: https://doi.org/10.1101/2024.02.01.57756
+
+
+
+
+
+## Beyond Microbes
+
+['Obelisks': Entirely New Class of Life Has Been Found in The Human Digestive System](https://www.sciencealert.com/obelisks-entirely-new-class-of-life-has-been-found-in-the-human-digestive-system?utm_source=join1440&utm_medium=email&utm_placement=newsletter)
+Stanford University biologist Ivan Zheludev searched millions of published genome and identified at least 30K different Obelisks that appeared in about 10\% of the samples.
+
+It's RNA with only 1000 nucleotides.
+
+Viroid-like colonists of human microbiomes
+Ivan N. Zheludev, Robert C. Edgar, Maria Jose Lopez-Galiano, Marcos de la Peña, Artem Babaian, Ami S. Bhatt, Andrew Z. Fire
+bioRxiv 2024.01.20.576352; doi: https://doi.org/10.1101/2024.01.20.576352
 
 ## Diversity and Immunity
 
@@ -12,6 +34,17 @@ Zhu, J., Xie, H., Yang, Z. et al. Statistical modeling of gut microbiota for per
 
 via [Ken Lassessen](https://www.facebook.com/groups/TheGutClubStoolTestDiscussionGroup/posts/6633282866800134/)
 
+## Eye Disease and Gut Microbiome
+
+[Some inherited eye diseases, including blindness](https://www.ucl.ac.uk/news/2024/feb/blindness-some-inherited-eye-diseases-may-be-caused-gut-bacteria) may be caused by gut bacteria that 
+
+> RB1 gene is key to controlling the integrity of the lower gastrointestinal tract, the first ever such observation. There, it combats pathogens and harmful bacteria by regulating what passes between the contents of the gut and the rest of the body.
+> 
+> The team found that when the gene has a particular mutation, dampening its expression (reducing its effect), these barriers in both the retina and the gut can be breached, enabling bacteria in the gut to move through the body and into the eye, leading to lesions in the retina that cause sight loss.
+
+The research was conducted on mice by Professor Richard Lee (UCL Institute of Ophthalmology and Moorfields Eye Hospital NHS Foundation Trust).
+
+https://www.cell.com/cell/abstract/S0092-8674(24)00108-9
 
 
 

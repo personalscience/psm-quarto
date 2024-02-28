@@ -13,8 +13,6 @@ execute:
   freeze: true
 
 
-google-analytics: G-4RNWXLMEJR
-
 
 bibliography: psm-refs.bib
 extract-media: "assets/images"

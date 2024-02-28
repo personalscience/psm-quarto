@@ -6,7 +6,7 @@
 
 See Jun 2022 [Review: Gut Microbiota: A Novel Therapeutic Target for Parkinson’s Disease](https://www.frontiersin.org/articles/10.3389/fimmu.2022.937555/full#B56)
 
-Parkinson's disease (PD) is a neurodegenerative disorder that is the second-most common after Alzheimer's disease[1]. Here is a general overview of PD and its known demographic factors:
+Parkinson's disease (PD) is a neurodegenerative disorder that is the second-most common after Alzheimer's disease. Here is a general overview of PD and its known demographic factors:
 
 1. Age of Detection:
    - Most people diagnosed with PD are age 60 years or older^[https://www.ninds.nih.gov/current-research/focus-disorders/focus-parkinsons-disease-research/parkinsons-disease-challenges-progress-and-promise].
@@ -19,9 +19,9 @@ Parkinson's disease (PD) is a neurodegenerative disorder that is the second-most
    - The male-to-female ratio of PD may change with age, suggesting that the etiology of PD may vary across different age groups^[https://jnnp.bmj.com/content/87/9/952].
 
 3. Geography:
-   - The prevalence and incidence of PD can vary by geographic location[4].
+   - The prevalence and incidence of PD can vary by geographic location.
    - A study in North America found that the age-sex-adjusted incidence of PD ranged from 108 to 212 per 100,000 among persons ages 65 and older^[https://www.nature.com/articles/s41531-022-00410-y].
-   - Geographic and ethnic variations in PD have been observed, but further research is needed to understand the underlying factors[4].
+   - Geographic and ethnic variations in PD have been observed, but further research is needed to understand the underlying factors.
 
 It's important to note that these demographic factors are based on available research and may not capture the full complexity of PD. The understanding of PD is constantly evolving, and further research is needed to uncover additional factors that may contribute to the development and progression of the disease.
 

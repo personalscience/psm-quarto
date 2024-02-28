@@ -11,6 +11,7 @@ execute:
 book:
   title: "Personal Science Guide to the Microbiome"
   site-url: "https://psm.personalscience.com"
+  google-analytics: G-4RNWXLMEJR
   author: Richard Sprague
   date: last-modified
   cover-image: assets/coverPersonalScience-quarto.jpg
