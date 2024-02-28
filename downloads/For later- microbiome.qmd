@@ -4,6 +4,7 @@
 Mentions uBiome's Melissa Agnello for processing some samples through uBiome's lab.
 
 Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease
+
 Xin Zhou, Xiaotao Shen, Jethro S. Johnson, Daniel J. Spakowicz, Melissa Agnello, Wenyu Zhou, Monica Avina, Alexander Honkala, Faye Chleilat, Shirley Jingyi Chen, Kexin Cha, Shana Leopold, Chenchen Zhu, Lei Chen, Lin Lyu, Daniel Hornburg, Si Wu, Xinyue Zhang, Chao Jiang, Liuyiqi Jiang, Lihua Jiang, Ruiqi Jian, Andrew W. Brooks, Meng Wang, Kévin Contrepois, Peng Gao, Sophia Miryam Schüssler-Fiorenza Rose, Thi Dong Binh Tran, Hoan Nguyen, Alessandra Celli, Bo-Young Hong, Eddy J. Bautista, Yair Dorsett, Paula Kavathas, Yanjiao Zhou, Erica Sodergren, George M. Weinstock, Michael P. Snyder
 bioRxiv 2024.02.01.577565; doi: https://doi.org/10.1101/2024.02.01.57756
 
@@ -111,6 +112,7 @@ see [evernote](https://www.evernote.com/shard/s7/nl/748304/abae11d4-6790-43ab-97
 ## Methods
 
 [Greengenes2 unifies microbial data in a single reference tree](https://www.researchgate.net/publication/372684035_Greengenes2_unifies_microbial_data_in_a_single_reference_tree)
+
 > Studies using 16S rRNA and shotgun metagenomics typically yield different results, usually attributed to PCR amplification biases. We introduce Greengenes2, a reference tree that unifies genomic and 16S rRNA databases in a consistent, integrated resource. By inserting sequences into a whole-genome phylogeny, we show that 16S rRNA and shotgun metagenomic data generated from the same samples agree in principal coordinates space, taxonomy and phenotype effect size when analyzed with the same tree.
 > 
 
