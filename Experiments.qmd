@@ -1,6 +1,5 @@
 ---
 execute:
-  cache: true
   warning: false
   echo: false
   messages: false

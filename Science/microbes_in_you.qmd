@@ -44,6 +44,16 @@ Fortunately, the body is pretty good at fighting off many pathogens. Around 94% 
 
 [^microbes-and-health-4]: Of course, it's difficult to tell how many people *don't* go to the hospital; this is a risk estimate based on fairly generous assumptions about the amount of the pathogen in eggs and how many people eat them. @hope_overview_2002
 
+***
+
+Members of your household will have more similar microbiomes if there's a dog present.[^microbes-and-health-15]
+
+[^microbes-and-health-15]: see @song_cohabiting_2013 or [open text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628085/)
+
+Humans are able to synthesize just 30 plant-digesting enzymes. Contrast that to the species *Bacteroidetes thetaiotaomicron* which can break down plant structures using over 260 different enzymes.[^microbes-and-health-16]
+
+[^microbes-and-health-16]: see @spector_diet_2016 p.299
+
 
 ## Gluten {#sec-gluten}
 
@@ -53,7 +63,7 @@ Recently the idea of a gluten free diet has taken on fad diet status. Despite su
 
 The experts say no, with one important exception. A tiny fraction of people *do* suffer from Celiac disease, a known disorder of the body's ability to handle gluten. There are well-established tests that can definitely tell whether you have Celiac disease or not, and although the vast majority of people test negative, those who are true Celiacs will immediately and obviously benefit from a gluten free diet. But what's driving the difference?
 
-As usual, the genetic evidence isn't completely lock-tight. Although a third of the population have particular versions of the (DQ2 or DQ8) of a cellular receptor called the human leukocyte antigen (HLA), only a tiny minority go on to develop serious gluten sensitivities. Some studies indicate gluten sensitivity arises at an early age, and that perhaps celiac disease can be prevented by exposing babies to gluten at just the right moment, but other studies say the opposite.[^microbes-and-health-10]
+As usual, the genetic evidence isn't completely lock-tight. Although a third of the population have particular versions (DQ2 or DQ8) of the cellular receptor human leukocyte antigen (HLA), only a tiny minority go on to develop serious gluten sensitivities. Some studies indicate gluten sensitivity arises at an early age, and that perhaps celiac disease can be prevented by exposing babies to gluten at just the right moment, but other studies say the opposite.[^microbes-and-health-10]
 
 [^microbes-and-health-10]: @vriezinga_randomized_2014
 
@@ -71,13 +81,7 @@ So if Celiac disease is caused by a change in the way some microbes function, ho
 
 [^microbes-and-health-14]: <http://www.today.com/health/celiac-disease-may-be-caused-virus-new-study-finds-t110119>
 
-Members of your household will have more similar microbiomes if there's a dog present.[^microbes-and-health-15]
 
-[^microbes-and-health-15]: see @song_cohabiting_2013 or [open text](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3628085/)
-
-Humans are able to synthesize just 30 plant-digesting enzymes. Contrast that to the species *Bacteroidetes thetaiotaomicron* which can break down plant structures using over 260 different enzymes.[^microbes-and-health-16]
-
-[^microbes-and-health-16]: see @spector_diet_2016 p.299
 
 
 

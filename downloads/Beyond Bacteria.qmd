@@ -46,6 +46,20 @@ There’s no solid evidence for this yet, but if true, it points in the same dis
 
 About half of all people appear to share at least some of a core group of phages, leading some scientists to speculate that, beyond the microbiome may lay a "Healthy gut phageome" (HGP). Another group of phages seems to be much rarer, occuring generally in people of various disease states. Could it be that it's the *phages*, not the microbes themselves that drive some types of disease?^[see @manrique_healthy_2016 [full text](http://www.pnas.org/content/113/37/10400.abstract ))]
 
+### Insects and the microbiome
+
+(DRAFT)
+
+
+see ["The tiniest tiny genomes"](https://pubmed.ncbi.nlm.nih.gov/24995872/) 10.1146/annurev-micro-091213-112901
+
+From [Rachel Thomas](https://rachel.fast.ai/posts/2024-01-09-insects/)
+
+> An astonishing [60% of insects](https://www.cdc.gov/mosquitoes/mosquito-control/community/emerging-methods/wolbachia.html) (including butterflies, bees, and beetles) around the world have the bacteria *Wolbachia*. This fascinating bacteria can have some surprising impacts, including reducing the ability of mosquitoes to carry or transmit dengue virus.
+
+
+
+
 
 
 

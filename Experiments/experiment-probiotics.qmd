@@ -8,6 +8,17 @@ On the other hand, a [recent scientific review](http://genomemedicine.biomedcent
 
 A literature review by the US Agency for Healthcare Research and Quality found [no safety issues in healthy adults](http://www.ahrq.gov/research/findings/evidence-based-reports/probiotsum.html), but there is surprisingly little research to show that the pills actually do anything. The independent lab [Labdoor](https://labdoor.com/rankings/probiotics) tests most common brands to see which actually contain the organisms claimed on the label, but I couldn't find anyone who tests whether the body can absorb them or not. There have been a few peer-reviewed studies showing that _some_ microbes in supplements can make it to the gut^[_L. reuteri DSM 17938_ and _L. rhamnosus GG_ in @dommels_survival_2009], but these studies almost feel like special cases, where they try lots of microbes and only a few make it. It's not clear that organisms in a typical off-the-shelf bottle of probiotics have ever been tested that way.
 
+### Dangers
+
+Like anything you put into your body, you can’t just assume it’s all upside. 
+
+Presumably you’re reading this because you are convinced that microbes have a powerful affect on the body, perhaps as powerful as prescription drugs, yet you wouldn’t consider taking random prescription drugs just to see what happens. The billions of microbes you send into your gut is in a concentration and quantity far greater than anything you’d get from nature. Please remember that.
+
+Here’s an analogy: let’s say scientists discover a breed of parrot that is found in abundance in healthy ecosystems in Costa Rica, so they decide to introduce it to Yellowstone Park. They dump thousands of live parrots all over the park and when they count the overall species diversity the following day, they note with pride that the experiment worked: Yellowstone is now home to a new species, one that is associated with healthy ecosystems! Unfortunately, upon testing again a week later, they learn that the parrots are gone. What happened? You and I can laugh at the idiots who thought they could transplant a tropical species into Wyoming, but maybe that’s exactly what you’re doing if you try to introduce a new species that is not adapted to your microbiome. It may show up in a couple of early gut tests, but if it disappears soon thereafter, was it helpful at all? In the parrot example, it may actually be harmful if it served as food to dangerous predators.
+
+Fortunately, the body is pretty robust and it’s harder to deliberately change the microbiome
+
+### My Tests
 
 I'm especially interested in learning whether the probiotics in the supplements actually “stick” in my gut. Taking so many billion organisms in pill form all at once may very well show up in a single gut test result, but how do I know they're not simply being flushed out of my system? Or worse, how do I know I'm not just crowding out something more important?
 
