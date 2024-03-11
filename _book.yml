@@ -31,7 +31,7 @@ book:
         - "Science/microbesEverywhere.qmd"
         - "downloads/Microbes and You.qmd"
         - Science/microbes_in_you.qmd
-        - Science/microbes-and-health.qmd
+        - Science/microbes-and-health.qmd  # includes
     - part: "Technology"
       chapters:
         - methods.qmd

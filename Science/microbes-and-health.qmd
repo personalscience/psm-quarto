@@ -13,5 +13,5 @@ title: "Microbes and Health"
 
 {{< include "/downloads/Microbes and Other Diseases.qmd" >}}
 
-{{< include "/Science/health/microbes-and-behavior.qmd" >}}
-
+<!-- # {{< include "/Science/health/microbes-and-behavior.qmd" >}} -->
+{{< include "/downloads/Microbes and Behavior.qmd" >}}

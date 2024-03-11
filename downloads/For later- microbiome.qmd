@@ -8,6 +8,22 @@ Longitudinal profiling of the microbiome at four body sites reveals core stabili
 Xin Zhou, Xiaotao Shen, Jethro S. Johnson, Daniel J. Spakowicz, Melissa Agnello, Wenyu Zhou, Monica Avina, Alexander Honkala, Faye Chleilat, Shirley Jingyi Chen, Kexin Cha, Shana Leopold, Chenchen Zhu, Lei Chen, Lin Lyu, Daniel Hornburg, Si Wu, Xinyue Zhang, Chao Jiang, Liuyiqi Jiang, Lihua Jiang, Ruiqi Jian, Andrew W. Brooks, Meng Wang, Kévin Contrepois, Peng Gao, Sophia Miryam Schüssler-Fiorenza Rose, Thi Dong Binh Tran, Hoan Nguyen, Alessandra Celli, Bo-Young Hong, Eddy J. Bautista, Yair Dorsett, Paula Kavathas, Yanjiao Zhou, Erica Sodergren, George M. Weinstock, Michael P. Snyder
 bioRxiv 2024.02.01.577565; doi: https://doi.org/10.1101/2024.02.01.57756
 
+## Behavior
+
+> The gut bacteria Lactobacillus, for example, can produce GABA; Enterococcus can produce serotonin; and Bacillus can make dopamine. Short-chain fatty acids (SCFAs) released when dietary fibre is fermented by bacteria in the gut also have neuroactive properties.
+
+
+
+### Alcholism and Gut Microbes
+
+[Could the gut give rise to alcohol addiction?](https://www.nature.com/articles/d41586-024-00667-8) asks *Nature* describing work on Alcohol Use Disorder by Sophie Leclercq, a biomedical scientist at the Catholic University of Louvain in Brussel, and others.
+
+> Leclercq thinks that 30–40% of cases of AUD might have a gut-related component that could be targeted for treatment. A key challenge is determining exactly which components to target — it is as yet unclear what constitutes a ‘good’ microbiome. Day’s analysis suggests that bacteria such as Lactobacillus, were in abundance in people with AUD, whereas Akkermansia and some others were low.
+
+
+
+
+
 
 
 

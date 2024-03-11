@@ -1,23 +1,12 @@
-### Microbes and behavior* {#scienceMicrobesBehavior}
+## Microbes and behavior {#scienceMicrobesBehavior}
 
-There are surprising links between microbes and behavior.
+Your gut contains 100 million neurons^[@courage_cultured_2019 p.46 ], which incidentally is about the same as an entire mouse. With all those neurons touching microbes, it's not surprising that there are links with behavior.
 
 _Toxoplasma Gondii_ is a tiny microbe that, for some reason, only likes to reproduce from within the gut of a cat. It can be found in almost all warm-blooded mammals, including humans — about 30% of us, according to some estimates, and that's after a century of obsession with hygiene that has wiped out countless other tiny inhabitants of the body.
 
 _T. Gondii_ seem harmless because its hosts appear to show no differences before or after "infection" except in one creature: the rat. In this classic experiment^[@vyas_behavioral_2007], rodents that were infected with _Toxoplasma gondii_ were studied with special dyes that can show how the infection spreads, first in the gut and then to the brain. 
 
 ![Twenty-eight days after infection, the rat brain is permanently altered](https://onedrive.live.com/embed?resid=8BC6084B92FFA451%21684588&authkey=%21ANavft_gNyN-fk4&width=660)
-
-```{r}
-#| label: fig-toxo-rats
-#| echo: false
-#| fig-cap: "Twenty-eight days after infection, the rat brain is permanently altered [@vyas_behavioral_2007]"
-
-# knitr::include_graphics(file.path(here::here(),"Science","assets/scienceRatsTaxoplasmaF1large.jpg"))
-
-# knitr::include_graphics("http://www.pnas.org/content/104/15/6442/F1.large.jpg")
-
-```
 
 When it finds itself ingested by a mouse or rat, it appears to fade away quietly. MRI scans show large amounts in the gut for a week or two, gradually decreasing until there is apparently nothing. By day 18, the last remnants of the infection are disappearing from the brain, except for tiny T. Gondii cysts. Not everywhere, but in just a few strategic places.
 
@@ -49,8 +38,6 @@ There are many other examples of microbes that appear to affect the brain:
 * *Lactobacillus* can produce acetylcholine
 
 * GABA can be produced by *Lactobacillus* and I.
-
-Your gut contains 100 million neurons^[@courage_cultured_2019 p.46 ], which incidentally is about the same as an entire mouse. 
 
 
 

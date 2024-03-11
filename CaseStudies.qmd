@@ -38,6 +38,8 @@ source("R/header.R")
 
 {{< include CaseStudies/caseStudyParkinsons.qmd >}}
 
+{{< include CaseStudies/autismCaseStudy.qmd >}}
+
 {{< include CaseStudies/caseStudyExercise.qmd >}}
 
 {{< include CaseStudies/caseStudyLyme.qmd >}}
