@@ -1,4 +1,4 @@
-## Microbes and behavior {#scienceMicrobesBehavior}
+## Microbes and Behavior {#scienceMicrobesBehavior}
 
 Your gut contains 100 million neurons^[@courage_cultured_2019 p.46 ], which incidentally is about the same as an entire mouse. With all those neurons touching microbes, it's not surprising that there are links with behavior.
 

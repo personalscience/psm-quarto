@@ -1,4 +1,19 @@
 
+## Human Milk as a Treatment for Gut Disease
+
+Human milk oligosaccharides (HMOs), the third most abundant component of human milk are not found in other kinds of milk, yet play a vital role in the care and feeding of *Bifidobacterium*. 
+
+Prolacta Bioscience is one company that makes a human-equivalent HMO intended to feed gut bacteria, and perhaps, solve numerous gut problems associated with dysfunctional microbiomes.
+
+Seattle-based Intrinsic Medicine is currently running on clinical trial to use HMO-based drugs for treatment of Parkinsons Disease.
+
+From [Stat News Mar 2024](https://www.statnews.com/2024/03/29/human-milk-oligosaccarides-gut-microbiome-immune-boost/)
+
+> Biomilq, for instance, synthesizes milk using mammary cells for people who have difficulty breastfeeding. And adults have occasionally tried to tap those benefits via dietary or nutritional supplements — and even by obtaining colostrum, the first milk produced by mammals within the first 48 to 72 hours after birth. Companies such as Armra are marketing colostrum, albeit from a bovine source, in powder form.
+
+
+
+
 [Longitudinal profiling of the microbiome at four body sites reveals core stability and individualized dynamics during health and disease](https://www.biorxiv.org/content/10.1101/2024.02.01.577565v1)
 
 Mentions uBiome's Melissa Agnello for processing some samples through uBiome's lab.
@@ -16,7 +31,7 @@ bioRxiv 2024.02.01.577565; doi: https://doi.org/10.1101/2024.02.01.57756
 
 ### Alcholism and Gut Microbes
 
-[Could the gut give rise to alcohol addiction?](https://www.nature.com/articles/d41586-024-00667-8) asks *Nature* describing work on Alcohol Use Disorder by Sophie Leclercq, a biomedical scientist at the Catholic University of Louvain in Brussel, and others.
+[Could the gut give rise to alcohol addiction?](https://www.nature.com/articles/d41586-024-00667-8) asks *Nature*, describing work on Alcohol Use Disorder by Sophie Leclercq, a biomedical scientist at the Catholic University of Louvain in Brussel, and others.
 
 > Leclercq thinks that 30–40% of cases of AUD might have a gut-related component that could be targeted for treatment. A key challenge is determining exactly which components to target — it is as yet unclear what constitutes a ‘good’ microbiome. Day’s analysis suggests that bacteria such as Lactobacillus, were in abundance in people with AUD, whereas Akkermansia and some others were low.
 
