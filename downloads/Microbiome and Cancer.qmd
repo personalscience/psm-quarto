@@ -4,7 +4,7 @@
 
 ### A microbiome-based cancer diagnostic
 
-An all-star team from the highly-regarded Rob Knight lab at UCSD published in *Nature* (2020) a ground-breaking study that showed how cancer could be diagnosed through microbiome testing.^[@poore_microbiome_2020], but a team of Johns-Hopkins statisticians [@gihawi_major_2023] showed that there were several errors in the study.  Knight's team did a [reanalysis](https://github.com/gregpoore/tcga_rebuttal/tree/master) and claims that a later replication indicates that an association exists whether it's those particular microbes involved or not.^[see [*Science* 2-Aug-2023](https://www.science.org/content/article/major-errors-alleged-landmark-study-used-microbes-identify-cancers)]
+An all-star team from the highly-regarded Rob Knight lab at UCSD published in *Nature* (2020) a ground-breaking study that showed how cancer could be diagnosed through microbiome testing.^[@poore_microbiome_2020,  later retracted], but a team of Johns-Hopkins statisticians [@gihawi_major_2023] showed that there were several errors in the study.  Knight's team did a [reanalysis](https://github.com/gregpoore/tcga_rebuttal/tree/master) and claims that a later replication indicates that an association exists whether it's those particular microbes involved or not.^[see [*Science* 2-Aug-2023](https://www.science.org/content/article/major-errors-alleged-landmark-study-used-microbes-identify-cancers)]
 
 
 ### Targeting microbiota in cancer

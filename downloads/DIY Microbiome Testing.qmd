@@ -2,6 +2,13 @@
 title: DIY Microbiome Testing
 ---
 
+Update May 2024:
+Ken Lassesen's list of DTC microbiome tests:
+
+[Which tests are best to use](https://blog.microbiomeprescription.com/which-tests-are-best-to-use/) ranks tests based on how easily they let users extract data. For US users, he recommends Thorne Labs and Ombre Labs. Most of the high-resolution tests will cost about \$200.
+
+***
+
 Although I've done hundreds of near-daily microbiome tests in the past, these days I only test myself every couple of months. Here are my recommendations as of early 2023.
 
 If you're just curious to see the results, I recommend signing up for one of the free clinical studies that will send you a gut kit and report the results:

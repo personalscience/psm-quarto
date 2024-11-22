@@ -12,11 +12,15 @@ When it finds itself ingested by a mouse or rat, it appears to fade away quietly
 
 Then something strange happens: the rat is now unnaturally attracted to cat urine. And note: its only attraction is to cat urine, not rabbits, not humans — only cats. Everything else about the rat appears normal. It still seems to be afraid of the other things that scare rats: other predators, stressful situations. But put a _T. Gondii_-affected rodent into a maze with different animal urine in the corners and it will rush to the cat side every time.
 
-How is it that _T. Gondii_ is able to be so precise in its effects? It seems to affect just rodents, and even then it only apparently makes them attracted to cats. It doesn’t apparently cause any other harm to its hosts, so — somehow — it must have found a resting place right at the spot in the mouse brain that affects its interest in cats.
+How is it that _T. Gondii_ is able to be so precise in its effects? It seems to affect just rodents^[new evidence shows it may make wolves more aggressive: https://www.nature.com/articles/s42003-022-04122-0] , and even then it only apparently makes them attracted to cats. It doesn’t apparently cause any other harm to its hosts, so — somehow — it must have found a resting place right at the spot in the mouse brain that affects its interest in cats.
 
 Although there doesn’t seem to be any major negative consequences to humans hosting _T. Gondii_, some scientists aren’t sure. One man in particular, Jaroslav Flegr, an evolutionary biologist at Charles University in Prague, thinks he has evidence that women who carry it might be more trusting than those who don’t. 
 
 Incidentally, some of the drugs used to treat schizophrenia have been shown to reduce levels of _T. Gondii_. 
+
+And _T. Gondii's_ ability to cross the blood-brain barrier may make it a potential vector to deliver therapeutics, eventually helping to treat (or cure) brain illnesses like Alzheimers. A University of Glascow - Tel Aviv University team did just that with an engineered version that successfully delivered the MeCP2 protein to the correct target location in brain organoids. ^[Bracha, S., Johnson, H.J., Pranckevicius, N.A. et al. Engineering Toxoplasma gondii secretion systems for intracellular delivery of multiple large therapeutic proteins to neurons. Nat Microbiol (2024). https://doi.org/10.1038/s41564-024-01750-6]
+
+***
 
 _T.Gondii_ isn’t the only microbe known to affect the behavior of its host. A more common example is the rabies virus, which upon infection somehow causes a mammal to be more agitated, more likely to strike out — or bite — other humans, thereby spreading itself.
 

@@ -99,7 +99,7 @@ ggplot(data,aes(x=Date,y=Shannon)) + geom_point() +
 {{< include Experiments/experiment-colon.qmd >}}
 
 
-{{< include Experiments/experiment_akkermansia.qmd >}}
+<!-- {{< include Experiments/experiment_akkermansia.qmd >}} -->
 
 {{< include Experiments/experiment-sleep.qmd >}}
 
