@@ -27,7 +27,7 @@ book:
         - "downloads/What is Personal Science.qmd"
     - part: "Science"
       chapters:
-        - Science.qmd
+        - science.qmd
         - "Science/microbesEverywhere.qmd"
         - "downloads/Microbes and You.qmd"
         - Science/microbes_in_you.qmd
