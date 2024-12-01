@@ -33,8 +33,9 @@ COPY .Renviron .
 COPY ./renv ./renv
 COPY ./psmr ./psmr
 COPY ./actino ./actino
+COPY ./R ./R
+COPY ./src ./src
 COPY ./tinytex-0.54 ./tinytex-0.54
-COPY . .
 COPY installed_tex_packages.txt /usr/src/app/installed_tex_packages.txt
 
 # Install renv and restore environment
@@ -46,7 +47,8 @@ RUN Rscript -e "install.packages('tinytex', repos='https://cran.rstudio.com')" \
     && Rscript -e "tinytex::install_tinytex(force = TRUE)" \
     && Rscript -e "tinytex::tlmgr_install(readLines('/usr/src/app/installed_tex_packages.txt'))"
 
-# Render Quarto project
-RUN quarto render
+# Define working directory for dynamic host file mounts
+WORKDIR /data
 
-CMD ["bash"]
+# Default command to render Quarto files
+CMD ["quarto", "render", ".", "--output-dir", "docs"]

@@ -16,8 +16,11 @@ theme_set( theme_light(base_family = "MarkPro"))
 theme_set(theme_economist() +theme(axis.title.x=element_blank()))# + scale_colour_economist())
 
 
-if(Sys.info()["sysname"]=="Darwin"){
-  quartzFonts(Candara = quartzFont(rep("Candara",4)), MarkPro = quartzFont(rep("MarkPro",4)))
-} else windowsFonts(Candara = windowsFont("Candara"), MarkPro = windowsFont("MarkPro"))
-
-
+if (Sys.info()["sysname"] == "Darwin") {
+    quartzFonts(Candara = quartzFont(rep("Candara", 4)), MarkPro = quartzFont(rep("MarkPro", 4)))
+} else if (Sys.info()["sysname"] == "Windows") {
+    windowsFonts(Candara = windowsFont("Candara"), MarkPro = windowsFont("MarkPro"))
+} else {
+    # Linux fallback: Use system default fonts
+    options(device = "pdf")  # Set default graphics device to PDF
+}
