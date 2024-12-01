@@ -31,6 +31,20 @@ From _Cell_ August 2024:
 > Here, we present curatedFoodMetagenomicData (cFMD), an open-access resource that collects food-associated microbial data to support the use of metagenomics in food science. The current release comprises 2,533 food metagenomes with standardized metadata, 1,950 of them newly sequenced within the MASTER EU Consortium. We generated 10,112 prokaryotic and 787 eukaryotic metagenome-assembled genomes (MAGs) from food that were grouped into 1,036 prokaryotic and 108 eukaryotic species clusters, 320 of which resulted to be uncharacterized when compared with >1 M existing genomes. We included these MAGs into our pipelines for sensitive taxonomic profiling and applied it to 19,833 human metagenomes, revealing species- and strain-level overlaps along the food-human axis.
 > 
 
+## Microbes in Your Bathroom
+
+Northwestern University scientists poured through the microbes in a typical bathroom showerhead and toothbrush to find these places harbor numerous unidentified organisms, with surprisingly little overlap among the different environments.
+
+![A toothbrush has more diversity than a showerhead](BathroomMicrobesShowerheadToothbrush.jpg)
+
+
+
+Front. Microbiomes, 08 October 2024
+Sec. Environmental Microbiomes
+Volume 3 - 2024 | https://doi.org/10.3389/frmbi.2024.1396560
+
+[Phage communities in household-related biofilms correlate with bacterial hosts](https://www.frontiersin.org/journals/microbiomes/articles/10.3389/frmbi.2024.1396560/full)
+
 ## Microbes in Your Microwave Oven
 
 [Your microwave oven has its own microbiome](https://www.nature.com/articles/d41586-024-02553-9)

@@ -1,7 +1,6 @@
-# Use a base image with R pre-installed
 FROM rocker/r-ver:4.3.1
 
-# Install system dependencies
+# System dependencies remain the same
 RUN apt-get update && apt-get install -y \
     curl \
     libxml2-dev \
@@ -15,33 +14,38 @@ RUN apt-get update && apt-get install -y \
     libtiff5-dev \
     libjpeg-dev \
     zlib1g-dev \
-    && apt-get clean
+    texlive-xetex \
+    texlive-fonts-recommended \
+    libgit2-dev \
+    r-recommended \  
+    wget \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 
-# Install Quarto (ARM64 version)
-RUN curl -fsSL https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.39/quarto-1.6.39-linux-arm64.deb -o quarto.deb && \
-    dpkg -i quarto.deb && \
-    rm quarto.deb
+# Install Quarto
+RUN curl -fsSL https://github.com/quarto-dev/quarto-cli/releases/download/v1.6.39/quarto-1.6.39-linux-arm64.deb -o quarto.deb \
+    && dpkg -i quarto.deb \
+    && rm quarto.deb
 
 # Set working directory
 WORKDIR /usr/src/app
 
-# Copy project files into the container
-COPY . /usr/src/app
+# Copy renv files
+COPY renv.lock .
+COPY .Renviron .
+COPY ./renv ./renv
 
-# Install R packages (renv setup will come later)
-RUN R -e "install.packages('renv')"
+# Copy your custom packages
+COPY ./psmr ./psmr
+COPY ./actino ./actino
+COPY ./tinytex-0.54 ./tinytex-0.54
 
-# Copy the custom psmr package
-COPY /Users/sprague/dev/psi/psmr /usr/src/app/psmr
+COPY . .
 
-# Install the psmr package
-RUN R -e "install.packages('/usr/src/app/psmr', repos = NULL, type = 'source')"
+# Install renv and restore the environment
+RUN Rscript -e "install.packages('renv', repos='https://cran.rstudio.com')" \
+    && Rscript -e "Sys.setenv(RENV_CONFIG_CACHE_SYMLINKS = FALSE); renv::restore()"
 
-# Restore the renv environment
-RUN R -e "renv::restore()"
+RUN Rscript -e "tinytex::install_tinytex()"
 
-# Expose port for RStudio (optional, for advanced setup)
-EXPOSE 8787
-
-# Default command
 CMD ["bash"]

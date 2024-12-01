@@ -1,0 +1,8 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^tools$
+^TUGboat$
+^codecov\.yml$
+^TinyTeX.*\.zip$
+^\.github$
+^cran-comments\.md$
